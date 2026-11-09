@@ -1,0 +1,650 @@
+{
+  "language": "JSL",
+  "notice": "指文字の図はAI生成/未監修の簡略化した学習補助イラストです。各手形は公開されている指文字資料(出典は本ファイル下部の一覧を参照)を基に再現していますが、簡略化のため細部(手首の角度や指の反り具合など)を省略している場合があります。正確な手形・動きは手話講師や辞典など信頼できる情報源で必ず確認してください。濁音は手を右へ動かす・半濁音は手を上へ跳ね上げる・拗音/促音は手前に引く・長音は人差し指で縦線を書く、という表記は一般的な日本手話の指文字ルールです。",
+  "sources": [
+    "https://makki-english.moo.jp/SignLanguageAIUEO.html",
+    "https://www.katch.ne.jp/~happy-i/5_syuwa/syu2.html",
+    "https://www.tgs.co.jp/signlist/finger.htm",
+    "https://www.suretalk.mb.softbank.jp/column/contents/000106.php",
+    "https://www.city.uji.kyoto.jp/uploaded/attachment/45409.pdf"
+  ],
+  "entries": [
+    {
+      "id": "a",
+      "char": "あ",
+      "romaji": "a",
+      "type": "seion",
+      "description": "親指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(アルファベット「a」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/a.webp"
+    },
+    {
+      "id": "i",
+      "char": "い",
+      "romaji": "i",
+      "type": "seion",
+      "description": "小指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(アルファベット「i」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/i.webp"
+    },
+    {
+      "id": "u",
+      "char": "う",
+      "romaji": "u",
+      "type": "seion",
+      "description": "人差し指・中指をそろえてまっすぐ伸ばし、残り3本は握ります。手のひらを相手に向けます(アルファベット「u」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/u.webp"
+    },
+    {
+      "id": "e",
+      "char": "え",
+      "romaji": "e",
+      "type": "seion",
+      "description": "5本すべての指を第2関節で軽く曲げます(かぎ爪のような形)。手のひらを相手に向けます(アルファベット「e」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/e.webp"
+    },
+    {
+      "id": "o",
+      "char": "お",
+      "romaji": "o",
+      "type": "seion",
+      "description": "親指の先に残り4本の指先をつけて輪(丸)を作ります。穴が手前から見えるように構えます(アルファベット「o」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/o.webp"
+    },
+    {
+      "id": "ka",
+      "char": "か",
+      "romaji": "ka",
+      "type": "seion",
+      "description": "人差し指と中指でチョキ(V)の形を作り、親指の腹を中指の第2関節に当てます。手のひらを相手に向けます(アルファベット「k」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/ka.webp"
+    },
+    {
+      "id": "ki",
+      "char": "き",
+      "romaji": "ki",
+      "type": "seion",
+      "description": "親指・中指・薬指の指先をつけ、人差し指と小指をまっすぐ伸ばします。キツネの影絵のような形です。手のひらを相手に向けます。",
+      "image": "assets/jsl/fingerspelling/ki.webp"
+    },
+    {
+      "id": "ku",
+      "char": "く",
+      "romaji": "ku",
+      "type": "seion",
+      "description": "手の甲を相手に向け、親指は上向きに立て、人差し指・中指・薬指・小指はそろえて横向きに伸ばします(数字の「9」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/ku.webp"
+    },
+    {
+      "id": "ke",
+      "char": "け",
+      "romaji": "ke",
+      "type": "seion",
+      "description": "親指を手のひらに折り込み、残り4本の指をそろえてまっすぐ伸ばします(敬礼する手の形、アルファベット「b」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/ke.webp"
+    },
+    {
+      "id": "ko",
+      "char": "こ",
+      "romaji": "ko",
+      "type": "seion",
+      "description": "親指以外の4本をそろえて根元から直角に曲げ、小指側の側面を相手に向けます(カタカナ「コ」の一画を表します)。",
+      "image": "assets/jsl/fingerspelling/ko.webp"
+    },
+    {
+      "id": "sa",
+      "char": "さ",
+      "romaji": "sa",
+      "type": "seion",
+      "description": "5本の指をすべて握り込んだ「グー」の形にします(親指は外側)。手のひらを相手に向けます(アルファベット「s」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/sa.webp"
+    },
+    {
+      "id": "shi",
+      "char": "し",
+      "romaji": "shi",
+      "type": "seion",
+      "description": "手の甲を相手に向け、親指を上向きに立て、人差し指・中指をそろえて横向きに伸ばします(数字の「7」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/shi.webp"
+    },
+    {
+      "id": "su",
+      "char": "す",
+      "romaji": "su",
+      "type": "seion",
+      "description": "「し」の形を作ったあと、手首を支点に指先が下を向くまで倒します(カタカナ「ス」の形)。",
+      "image": "assets/jsl/fingerspelling/su.webp"
+    },
+    {
+      "id": "se",
+      "char": "せ",
+      "romaji": "se",
+      "type": "seion",
+      "description": "握った「グー」の形から中指だけをまっすぐ伸ばし、指の腹を相手に向けます(「背」がピンと伸びている様子)。",
+      "image": "assets/jsl/fingerspelling/se.webp"
+    },
+    {
+      "id": "so",
+      "char": "そ",
+      "romaji": "so",
+      "type": "seion",
+      "description": "人差し指だけを伸ばし、指先をやや斜め下に向けて「それ」を指し示します。残り4本は握ります。",
+      "image": "assets/jsl/fingerspelling/so.webp"
+    },
+    {
+      "id": "ta",
+      "char": "た",
+      "romaji": "ta",
+      "type": "seion",
+      "description": "親指だけを立て、指の腹を相手に向けます(「いいね」のサイン、アルファベット「t」の指文字と同じ)。残り4本は握ります。",
+      "image": "assets/jsl/fingerspelling/ta.webp"
+    },
+    {
+      "id": "chi",
+      "char": "ち",
+      "romaji": "chi",
+      "type": "seion",
+      "description": "親指・人差し指・中指・薬指の指先をそろえてつけ、小指だけをまっすぐ立てます(漢数字「千」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/chi.webp"
+    },
+    {
+      "id": "tsu",
+      "char": "つ",
+      "romaji": "tsu",
+      "type": "seion",
+      "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。",
+      "image": "assets/jsl/fingerspelling/tsu.webp"
+    },
+    {
+      "id": "te",
+      "char": "て",
+      "romaji": "te",
+      "type": "seion",
+      "description": "5本の指をそろえてまっすぐ伸ばし、手のひらをそのまま相手に見せます。",
+      "image": "assets/jsl/fingerspelling/te.webp"
+    },
+    {
+      "id": "to",
+      "char": "と",
+      "romaji": "to",
+      "type": "seion",
+      "description": "人差し指・中指をそろえて伸ばし、手の甲を相手に向けます(「う」と向きが逆、戸をたたく感じ)。",
+      "image": "assets/jsl/fingerspelling/to.webp"
+    },
+    {
+      "id": "na",
+      "char": "な",
+      "romaji": "na",
+      "type": "seion",
+      "description": "人差し指・中指を離して伸ばしたあと、手首を軸に前へ曲げ、指先が下を向くようにします(アルファベット「n」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/na.webp"
+    },
+    {
+      "id": "ni",
+      "char": "に",
+      "romaji": "ni",
+      "type": "seion",
+      "description": "手のひらを自分側に向け、人差し指・中指をそろえて水平に伸ばします(漢数字「二」・カタカナ「ニ」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/ni.webp"
+    },
+    {
+      "id": "nu",
+      "char": "ぬ",
+      "romaji": "nu",
+      "type": "seion",
+      "description": "親指を手前に構え、人差し指を第2関節でカギのように曲げます。残りの指は握ります(「盗っ人」のジェスチャーと同じ)。",
+      "image": "assets/jsl/fingerspelling/nu.webp"
+    },
+    {
+      "id": "ne",
+      "char": "ね",
+      "romaji": "ne",
+      "type": "seion",
+      "description": "指を大きく開いて伸ばしたあと、手首を軸に前へ曲げ、指先が下を向くようにします(根っこが地面に伸びる様子)。",
+      "image": "assets/jsl/fingerspelling/ne.webp"
+    },
+    {
+      "id": "no",
+      "char": "の",
+      "romaji": "no",
+      "type": "seion",
+      "description": "人差し指だけを立て、空中にカタカナの「ノ」を書くように動かします。残り4本は握ります。",
+      "image": "assets/jsl/fingerspelling/no.webp"
+    },
+    {
+      "id": "ha",
+      "char": "は",
+      "romaji": "ha",
+      "type": "seion",
+      "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。",
+      "image": "assets/jsl/fingerspelling/ha.webp"
+    },
+    {
+      "id": "hi",
+      "char": "ひ",
+      "romaji": "hi",
+      "type": "seion",
+      "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/hi.webp"
+    },
+    {
+      "id": "fu",
+      "char": "ふ",
+      "romaji": "fu",
+      "type": "seion",
+      "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。",
+      "image": "assets/jsl/fingerspelling/fu.webp"
+    },
+    {
+      "id": "he",
+      "char": "へ",
+      "romaji": "he",
+      "type": "seion",
+      "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。",
+      "image": "assets/jsl/fingerspelling/he.webp"
+    },
+    {
+      "id": "ho",
+      "char": "ほ",
+      "romaji": "ho",
+      "type": "seion",
+      "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。",
+      "image": "assets/jsl/fingerspelling/ho.webp"
+    },
+    {
+      "id": "ma",
+      "char": "ま",
+      "romaji": "ma",
+      "type": "seion",
+      "description": "人差し指・中指・薬指を離して伸ばしたあと、手首を軸に前へ曲げ、3本の指先が下を向くようにします(アルファベット「m」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/ma.webp"
+    },
+    {
+      "id": "mi",
+      "char": "み",
+      "romaji": "mi",
+      "type": "seion",
+      "description": "手の甲を相手に向け、人差し指・中指・薬指をそろえて横向きに伸ばします(漢数字「三」・カタカナ「ミ」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/mi.webp"
+    },
+    {
+      "id": "mu",
+      "char": "む",
+      "romaji": "mu",
+      "type": "seion",
+      "description": "手の甲を相手に向け、親指と人差し指で「L」の形を作り、横向きにします(数字の「6」と同じ形)。残り3本は握ります。",
+      "image": "assets/jsl/fingerspelling/mu.webp"
+    },
+    {
+      "id": "me",
+      "char": "め",
+      "romaji": "me",
+      "type": "seion",
+      "description": "親指と人差し指の指先を軽くつけて小さな輪を作ります(「目」の形)。残り3本は握ります。手のひらを相手に向けます。",
+      "image": "assets/jsl/fingerspelling/me.webp"
+    },
+    {
+      "id": "mo",
+      "char": "も",
+      "romaji": "mo",
+      "type": "seion",
+      "description": "親指と人差し指以外を握り、親指と人差し指の指先をくっつけます(「同じ」を表す動き)。",
+      "image": "assets/jsl/fingerspelling/mo.webp"
+    },
+    {
+      "id": "ya",
+      "char": "や",
+      "romaji": "ya",
+      "type": "seion",
+      "description": "親指と小指を伸ばし、人差し指・中指・薬指の3本は握ります(Y字の形、アルファベット「y」の指文字と同じ)。",
+      "image": "assets/jsl/fingerspelling/ya.webp"
+    },
+    {
+      "id": "yu",
+      "char": "ゆ",
+      "romaji": "yu",
+      "type": "seion",
+      "description": "手のひらを自分側に向け、人差し指・中指・薬指を離して伸ばします。親指と小指は握ります(温泉マーク・湯気の形)。",
+      "image": "assets/jsl/fingerspelling/yu.webp"
+    },
+    {
+      "id": "yo",
+      "char": "よ",
+      "romaji": "yo",
+      "type": "seion",
+      "description": "手のひらを自分側に向け、親指を曲げ、残り4本の指をそろえて横向きに伸ばします(漢数字「四」と同じ形)。",
+      "image": "assets/jsl/fingerspelling/yo.webp"
+    },
+    {
+      "id": "ra",
+      "char": "ら",
+      "romaji": "ra",
+      "type": "seion",
+      "description": "人差し指と中指を伸ばしたあと、人差し指の背を中指の腹に当てるように絡めます(アルファベット「r」の指文字と同じ)。残り3本は握ります。",
+      "image": "assets/jsl/fingerspelling/ra.webp"
+    },
+    {
+      "id": "ri",
+      "char": "り",
+      "romaji": "ri",
+      "type": "seion",
+      "description": "人差し指・中指を伸ばし、空中にカタカナの「リ」を書くように手首をはねらせます。残り3本は握ります。",
+      "image": "assets/jsl/fingerspelling/ri.webp"
+    },
+    {
+      "id": "ru",
+      "char": "る",
+      "romaji": "ru",
+      "type": "seion",
+      "description": "親指・人差し指・中指を離して伸ばし、薬指・小指は握ります(カタカナ「ル」の形)。手のひらを相手に向けます。",
+      "image": "assets/jsl/fingerspelling/ru.webp"
+    },
+    {
+      "id": "re",
+      "char": "れ",
+      "romaji": "re",
+      "type": "seion",
+      "description": "親指と人差し指を伸ばしてカタカナ「レ」の形を作り、中指・薬指・小指は握ります。手のひらを相手に向けます。",
+      "image": "assets/jsl/fingerspelling/re.webp"
+    },
+    {
+      "id": "ro",
+      "char": "ろ",
+      "romaji": "ro",
+      "type": "seion",
+      "description": "親指を手前に構え、人差し指・中指以外を握り、伸ばした2本の指を第2関節で曲げます(カタカナ「ロ」の形)。",
+      "image": "assets/jsl/fingerspelling/ro.webp"
+    },
+    {
+      "id": "wa",
+      "char": "わ",
+      "romaji": "wa",
+      "type": "seion",
+      "description": "人差し指・中指・薬指を離して伸ばし、親指・小指は握ります(アルファベット「w」の指文字と同じ)。手のひらを相手に向けます。",
+      "image": "assets/jsl/fingerspelling/wa.webp"
+    },
+    {
+      "id": "wo",
+      "char": "を",
+      "romaji": "wo",
+      "type": "seion",
+      "description": "「お」と同じ丸い形を作ってから、その形のまま手を自分側に引きます。",
+      "image": "assets/jsl/fingerspelling/wo.webp"
+    },
+    {
+      "id": "n",
+      "char": "ん",
+      "romaji": "n",
+      "type": "seion",
+      "description": "人差し指だけを立て、空中にカタカナの「ン」を書くように小さく動かします。残り4本は握ります。",
+      "image": "assets/jsl/fingerspelling/n.webp"
+    },
+    {
+      "id": "ga",
+      "char": "が",
+      "romaji": "ga",
+      "type": "dakuon",
+      "baseId": "ka",
+      "description": "人差し指と中指でチョキ(V)の形を作り、親指の腹を中指の第2関節に当てます。手のひらを相手に向けます(アルファベット「k」の指文字と同じ)。 清音「か」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/ga.webp"
+    },
+    {
+      "id": "gi",
+      "char": "ぎ",
+      "romaji": "gi",
+      "type": "dakuon",
+      "baseId": "ki",
+      "description": "親指・中指・薬指の指先をつけ、人差し指と小指をまっすぐ伸ばします。キツネの影絵のような形です。手のひらを相手に向けます。 清音「き」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/gi.webp"
+    },
+    {
+      "id": "gu",
+      "char": "ぐ",
+      "romaji": "gu",
+      "type": "dakuon",
+      "baseId": "ku",
+      "description": "手の甲を相手に向け、親指は上向きに立て、人差し指・中指・薬指・小指はそろえて横向きに伸ばします(数字の「9」と同じ形)。 清音「く」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/gu.webp"
+    },
+    {
+      "id": "ge",
+      "char": "げ",
+      "romaji": "ge",
+      "type": "dakuon",
+      "baseId": "ke",
+      "description": "親指を手のひらに折り込み、残り4本の指をそろえてまっすぐ伸ばします(敬礼する手の形、アルファベット「b」の指文字と同じ)。 清音「け」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/ge.webp"
+    },
+    {
+      "id": "go",
+      "char": "ご",
+      "romaji": "go",
+      "type": "dakuon",
+      "baseId": "ko",
+      "description": "親指以外の4本をそろえて根元から直角に曲げ、小指側の側面を相手に向けます(カタカナ「コ」の一画を表します)。 清音「こ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/go.webp"
+    },
+    {
+      "id": "za",
+      "char": "ざ",
+      "romaji": "za",
+      "type": "dakuon",
+      "baseId": "sa",
+      "description": "5本の指をすべて握り込んだ「グー」の形にします(親指は外側)。手のひらを相手に向けます(アルファベット「s」の指文字と同じ)。 清音「さ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/za.webp"
+    },
+    {
+      "id": "ji",
+      "char": "じ",
+      "romaji": "ji",
+      "type": "dakuon",
+      "baseId": "shi",
+      "description": "手の甲を相手に向け、親指を上向きに立て、人差し指・中指をそろえて横向きに伸ばします(数字の「7」と同じ形)。 清音「し」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/ji.webp"
+    },
+    {
+      "id": "zu",
+      "char": "ず",
+      "romaji": "zu",
+      "type": "dakuon",
+      "baseId": "su",
+      "description": "「し」の形を作ったあと、手首を支点に指先が下を向くまで倒します(カタカナ「ス」の形)。 清音「す」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/zu.webp"
+    },
+    {
+      "id": "ze",
+      "char": "ぜ",
+      "romaji": "ze",
+      "type": "dakuon",
+      "baseId": "se",
+      "description": "握った「グー」の形から中指だけをまっすぐ伸ばし、指の腹を相手に向けます(「背」がピンと伸びている様子)。 清音「せ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/ze.webp"
+    },
+    {
+      "id": "zo",
+      "char": "ぞ",
+      "romaji": "zo",
+      "type": "dakuon",
+      "baseId": "so",
+      "description": "人差し指だけを伸ばし、指先をやや斜め下に向けて「それ」を指し示します。残り4本は握ります。 清音「そ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/zo.webp"
+    },
+    {
+      "id": "da",
+      "char": "だ",
+      "romaji": "da",
+      "type": "dakuon",
+      "baseId": "ta",
+      "description": "親指だけを立て、指の腹を相手に向けます(「いいね」のサイン、アルファベット「t」の指文字と同じ)。残り4本は握ります。 清音「た」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/da.webp"
+    },
+    {
+      "id": "dji",
+      "char": "ぢ",
+      "romaji": "dji",
+      "type": "dakuon",
+      "baseId": "chi",
+      "description": "親指・人差し指・中指・薬指の指先をそろえてつけ、小指だけをまっすぐ立てます(漢数字「千」と同じ形)。 清音「ち」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/dji.webp"
+    },
+    {
+      "id": "dzu",
+      "char": "づ",
+      "romaji": "dzu",
+      "type": "dakuon",
+      "baseId": "tsu",
+      "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。 清音「つ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/dzu.webp"
+    },
+    {
+      "id": "de",
+      "char": "で",
+      "romaji": "de",
+      "type": "dakuon",
+      "baseId": "te",
+      "description": "5本の指をそろえてまっすぐ伸ばし、手のひらをそのまま相手に見せます。 清音「て」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/de.webp"
+    },
+    {
+      "id": "do",
+      "char": "ど",
+      "romaji": "do",
+      "type": "dakuon",
+      "baseId": "to",
+      "description": "人差し指・中指をそろえて伸ばし、手の甲を相手に向けます(「う」と向きが逆、戸をたたく感じ)。 清音「と」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/do.webp"
+    },
+    {
+      "id": "ba",
+      "char": "ば",
+      "romaji": "ba",
+      "type": "dakuon",
+      "baseId": "ha",
+      "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。 清音「は」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/ba.webp"
+    },
+    {
+      "id": "bi",
+      "char": "び",
+      "romaji": "bi",
+      "type": "dakuon",
+      "baseId": "hi",
+      "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。 清音「ひ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/bi.webp"
+    },
+    {
+      "id": "bu",
+      "char": "ぶ",
+      "romaji": "bu",
+      "type": "dakuon",
+      "baseId": "fu",
+      "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。 清音「ふ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/bu.webp"
+    },
+    {
+      "id": "be",
+      "char": "べ",
+      "romaji": "be",
+      "type": "dakuon",
+      "baseId": "he",
+      "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。 清音「へ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/be.webp"
+    },
+    {
+      "id": "bo",
+      "char": "ぼ",
+      "romaji": "bo",
+      "type": "dakuon",
+      "baseId": "ho",
+      "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。 清音「ほ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
+      "image": "assets/jsl/fingerspelling/bo.webp"
+    },
+    {
+      "id": "pa",
+      "char": "ぱ",
+      "romaji": "pa",
+      "type": "handakuon",
+      "baseId": "ha",
+      "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。 清音「は」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
+      "image": "assets/jsl/fingerspelling/pa.webp"
+    },
+    {
+      "id": "pi",
+      "char": "ぴ",
+      "romaji": "pi",
+      "type": "handakuon",
+      "baseId": "hi",
+      "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。 清音「ひ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
+      "image": "assets/jsl/fingerspelling/pi.webp"
+    },
+    {
+      "id": "pu",
+      "char": "ぷ",
+      "romaji": "pu",
+      "type": "handakuon",
+      "baseId": "fu",
+      "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。 清音「ふ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
+      "image": "assets/jsl/fingerspelling/pu.webp"
+    },
+    {
+      "id": "pe",
+      "char": "ぺ",
+      "romaji": "pe",
+      "type": "handakuon",
+      "baseId": "he",
+      "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。 清音「へ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
+      "image": "assets/jsl/fingerspelling/pe.webp"
+    },
+    {
+      "id": "po",
+      "char": "ぽ",
+      "romaji": "po",
+      "type": "handakuon",
+      "baseId": "ho",
+      "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。 清音「ほ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
+      "image": "assets/jsl/fingerspelling/po.webp"
+    },
+    {
+      "id": "xya",
+      "char": "ゃ",
+      "romaji": "xya",
+      "type": "youon",
+      "baseId": "ya",
+      "description": "親指と小指を伸ばし、人差し指・中指・薬指の3本は握ります(Y字の形、アルファベット「y」の指文字と同じ)。 基本の指文字「や」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ゃ」を表します。",
+      "image": "assets/jsl/fingerspelling/xya.webp"
+    },
+    {
+      "id": "xyu",
+      "char": "ゅ",
+      "romaji": "xyu",
+      "type": "youon",
+      "baseId": "yu",
+      "description": "手のひらを自分側に向け、人差し指・中指・薬指を離して伸ばします。親指と小指は握ります(温泉マーク・湯気の形)。 基本の指文字「ゆ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ゅ」を表します。",
+      "image": "assets/jsl/fingerspelling/xyu.webp"
+    },
+    {
+      "id": "xyo",
+      "char": "ょ",
+      "romaji": "xyo",
+      "type": "youon",
+      "baseId": "yo",
+      "description": "手のひらを自分側に向け、親指を曲げ、残り4本の指をそろえて横向きに伸ばします(漢数字「四」と同じ形)。 基本の指文字「よ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ょ」を表します。",
+      "image": "assets/jsl/fingerspelling/xyo.webp"
+    },
+    {
+      "id": "xtsu",
+      "char": "っ",
+      "romaji": "xtsu",
+      "type": "sokuon",
+      "baseId": "tsu",
+      "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。 基本の指文字「つ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「っ」を表します。",
+      "image": "assets/jsl/fingerspelling/xtsu.webp"
+    },
+    {
+      "id": "chouon",
+      "char": "ー",
+      "romaji": "-",
+      "type": "chouon",
+      "description": "長音「ー」には単独の指文字の形はありません。人差し指を立てて縦に「ー」の線を上から下へ書くように動かして、音を伸ばすことを表します。",
+      "image": "assets/jsl/fingerspelling/chouon.webp"
+    }
+  ]
+}
