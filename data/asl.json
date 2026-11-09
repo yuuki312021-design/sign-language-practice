@@ -1,0 +1,24 @@
+{
+  "language": "ASL",
+  "languageName": "アメリカ手話 (ASL)",
+  "notice": "ASL (American Sign Language) is a distinct language from JSL. Signs vary by region and signer; illustrations are learning aids, not authoritative instruction.",
+  "categories": ["Greetings", "Numbers", "Introductions", "Everyday"],
+  "entries": [
+    {"id":"hello","word":"こんにちは","english":"Hello","category":"Greetings","description":"Raise an open right hand near the forehead and move it outward in a small salute-like wave. Keep the motion relaxed and use a friendly expression.","image":"assets/asl/hello.webp","emoji":"👋","videoUrl":""},
+    {"id":"thanks","word":"ありがとう","english":"Thank you","category":"Greetings","description":"Touch the fingertips of a flat hand near the chin, then move the hand forward toward the person. Pair the movement with an appreciative expression.","image":"assets/asl/thank-you.webp","emoji":"🙏","videoUrl":""},
+    {"id":"please","word":"お願いします","english":"Please","category":"Greetings","description":"Place a flat hand on the chest and move it in a small circular motion. Hand orientation and movement should be checked against a fluent signer.","image":"assets/asl/please.webp","emoji":"💛","videoUrl":""},
+    {"id":"sorry","word":"ごめんなさい","english":"Sorry","category":"Greetings","description":"Make a fist and move it in a small circle on the chest. Facial expression helps convey the apology.","image":"assets/asl/sorry.webp","emoji":"🙇","videoUrl":""},
+    {"id":"morning","word":"おはよう","english":"Good morning","category":"Greetings","description":"A common ASL expression combines GOOD and MORNING. Learn the two signs in sequence from a fluent model; the icon is a reminder, not a handshape diagram.","image":"","emoji":"🌅","videoUrl":""},
+    {"id":"night","word":"おやすみなさい","english":"Good night","category":"Greetings","description":"ASL commonly combines GOOD and NIGHT. Keep the signs distinct and follow the timing and orientation shown by a fluent signer.","image":"","emoji":"🌙","videoUrl":""},
+    {"id":"bye","word":"さようなら","english":"Goodbye / Bye","category":"Greetings","description":"Wave an open hand toward the other person. The expression and direction of the wave help make the farewell clear.","image":"","emoji":"👋","videoUrl":""},
+    {"id":"good","word":"よい","english":"Good","category":"Everyday","description":"A common ASL sign moves a flat hand from the chin outward. This forms part of expressions such as GOOD MORNING and GOOD NIGHT.","image":"","emoji":"👍","videoUrl":""},
+    {"id":"five","word":"5","english":"Five","category":"Numbers","description":"Hold up an open hand with all five fingers extended. Pay attention to palm orientation and signing space.","image":"","emoji":"🖐️","videoUrl":""},
+    {"id":"ten","word":"10","english":"Ten","category":"Numbers","description":"ASL number ten is commonly shown with a thumbs-up handshape and a small twist. Confirm the movement with a fluent ASL model.","image":"","emoji":"🔟","videoUrl":""},
+    {"id":"me","word":"わたし","english":"Me / I","category":"Introductions","description":"Point to yourself to refer to ME or I. Pronoun placement is meaningful; use the signing space consistently.","image":"","emoji":"🙋","videoUrl":""},
+    {"id":"name","word":"名前","english":"Name","category":"Introductions","description":"The common ASL sign NAME uses both index and middle fingers extended, touching together. Proper names can also be fingerspelled.","image":"","emoji":"🪪","videoUrl":""},
+    {"id":"meet","word":"はじめまして","english":"Nice to meet you","category":"Introductions","description":"A natural ASL introduction may use NICE, MEET, and YOU in sequence. Maintain eye contact and appropriate facial grammar.","image":"","emoji":"🤝","videoUrl":""},
+    {"id":"like","word":"好き","english":"Like","category":"Everyday","description":"The common ASL sign LIKE uses the thumb and middle finger near the chest, then moves the hand outward. Facial expression can affect meaning.","image":"","emoji":"💛","videoUrl":""},
+    {"id":"yes","word":"はい","english":"Yes","category":"Everyday","description":"Make a fist and nod it up and down like a head nod. Natural facial expression and conversational timing matter.","image":"","emoji":"✅","videoUrl":""},
+    {"id":"help","word":"助けて","english":"Help","category":"Everyday","description":"The ASL sign HELP commonly places one fist on the palm of the other hand and lifts both hands. Practice orientation and movement with a trusted source.","image":"","emoji":"🆘","videoUrl":""}
+  ]
+}
