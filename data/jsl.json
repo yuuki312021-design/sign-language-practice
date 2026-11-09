@@ -1,0 +1,24 @@
+{
+  "language": "JSL",
+  "languageName": "日本手話 (JSL)",
+  "notice": "手話には地域差・個人差があります。図はAI生成/未監修の学習補助イラストであり、実際の表現は信頼できる講師・辞典でも確認してください。",
+  "categories": ["あいさつ", "数字", "自己紹介", "日常表現"],
+  "entries": [
+    {"id":"hello","word":"こんにちは","reading":"こんにちは","english":"Hello","category":"あいさつ","description":"指をそろえた手を額に近づけ、軽く前へ動かす図解です。表情や会釈も合わせ、相手に向けて自然に表現します。","image":"assets/jsl/hello.webp","emoji":"👋","videoUrl":""},
+    {"id":"morning","word":"おはよう","reading":"おはよう","english":"Good morning","category":"あいさつ","description":"両手を重ねてから下へ動かす図解です。朝のあいさつとして、明るい表情で使います。","image":"assets/jsl/good-morning.webp","emoji":"🌅","videoUrl":""},
+    {"id":"evening","word":"こんばんは","reading":"こんばんは","english":"Good evening","category":"あいさつ","description":"水平に重ねた手を下へ移す動きを図示しています。時間帯の表現は地域や話者で異なる場合があります。","image":"assets/jsl/good-evening.webp","emoji":"🌆","videoUrl":""},
+    {"id":"thanks","word":"ありがとう","reading":"ありがとう","english":"Thank you","category":"あいさつ","description":"手を口元から前へ出すイメージの図解です。感謝の表情を添え、相手の目を見て伝えます。","image":"assets/jsl/thank-you.webp","emoji":"🙏","videoUrl":""},
+    {"id":"sorry","word":"ごめんなさい","reading":"ごめんなさい","english":"Sorry","category":"あいさつ","description":"胸に手を置く図解です。謝罪の気持ちが伝わる表情と、必要に応じた会釈も大切です。","image":"assets/jsl/sorry.webp","emoji":"🙇","videoUrl":""},
+    {"id":"meet","word":"はじめまして","reading":"はじめまして","english":"Nice to meet you","category":"あいさつ","description":"両手の人差し指を向かい合わせる図解です。初対面のあいさつで、自己紹介と組み合わせて使います。","image":"assets/jsl/nice-to-meet.webp","emoji":"🤝","videoUrl":""},
+    {"id":"bye","word":"さようなら","reading":"さようなら","english":"Goodbye","category":"あいさつ","description":"手のひらを相手に向けて、手首を左右に振る図解です。別れ際に表情を添えて使います。","image":"assets/jsl/goodbye.webp","emoji":"👋","videoUrl":""},
+    {"id":"night","word":"おやすみなさい","reading":"おやすみなさい","english":"Good night","category":"あいさつ","description":"両手を枕のように頬の横に添えるイメージです。目を閉じる表情と合わせます。","image":"assets/jsl/good-night.webp","emoji":"🌙","videoUrl":""},
+    {"id":"five","word":"5","reading":"ご","english":"Five","category":"数字","description":"手のひらを相手に向け、5本の指を開きます。数字は手の向きや位置も確認しましょう。","image":"assets/jsl/number-five.webp","emoji":"🖐️","videoUrl":""},
+    {"id":"ten","word":"10","reading":"じゅう","english":"Ten","category":"数字","description":"10を表す手の形の図解です。指の組み合わせや動きは正確な手本で確認してください。","image":"assets/jsl/number-ten.webp","emoji":"🔟","videoUrl":""},
+    {"id":"me","word":"わたし","reading":"わたし","english":"Me / I","category":"自己紹介","description":"人差し指で自分の胸を示す図解です。自己紹介では名前や所属などの情報と順に組み合わせます。","image":"assets/jsl/me.webp","emoji":"🙋","videoUrl":""},
+    {"id":"name","word":"名前","reading":"なまえ","english":"Name","category":"自己紹介","description":"両手の指を向かい合わせるイメージの図解です。名前を示した後、指文字で固有名詞を伝える方法もあります。","image":"assets/jsl/name.webp","emoji":"🪪","videoUrl":""},
+    {"id":"like","word":"好き","reading":"すき","english":"Like","category":"日常表現","description":"胸の前で手を動かす図解です。対象を示す語と表情を組み合わせると意味が伝わりやすくなります。","image":"assets/jsl/like.webp","emoji":"💛","videoUrl":""},
+    {"id":"yes","word":"はい","reading":"はい","english":"Yes","category":"日常表現","description":"うなずく動きと表情を合わせる図解です。会話では相づちや視線も重要な情報になります。","image":"assets/jsl/yes.webp","emoji":"✅","videoUrl":""},
+    {"id":"no","word":"いいえ","reading":"いいえ","english":"No","category":"日常表現","description":"首を横に振る表情・動きの図解です。否定を表すときは、相手に伝わる表情も意識します。","image":"assets/jsl/no.webp","emoji":"❌","videoUrl":""},
+    {"id":"help","word":"助けて","reading":"たすけて","english":"Help","category":"日常表現","description":"助けが必要な状況を表情と動きで明確に伝えます。ここでは学習用のアイコンを表示しています。","image":"assets/jsl/help.webp","emoji":"🆘","videoUrl":""}
+  ]
+}
