@@ -11,7 +11,13 @@ window.LOCAL_DATA = {
     "あいさつ",
     "数字",
     "自己紹介",
-    "日常表現"
+    "日常表現",
+    "時間・曜日",
+    "食べ物・飲み物",
+    "感情",
+    "天気・季節",
+    "動詞",
+    "疑問詞"
   ],
   "entries": [
     {
@@ -188,6 +194,1128 @@ window.LOCAL_DATA = {
       "description": "助けが必要な状況を表情と動きで明確に伝えます。ここでは学習用のアイコンを表示しています。",
       "image": "assets/jsl/help.webp",
       "emoji": "🆘",
+      "videoUrl": ""
+    },
+    {
+      "id": "today",
+      "word": "今日",
+      "reading": "きょう",
+      "english": "Today",
+      "category": "時間・曜日",
+      "description": "人差し指で真下を示し、そのまま少し前に動かす図解です。「今」の意味を込めて、はっきりした表情で示します。",
+      "image": "assets/jsl/today.webp",
+      "emoji": "📅",
+      "videoUrl": ""
+    },
+    {
+      "id": "tomorrow",
+      "word": "明日",
+      "reading": "あした",
+      "english": "Tomorrow",
+      "category": "時間・曜日",
+      "description": "「今日」を示してから手を前に動かし、これから来る日を表す図解です。未来を指し示す方向と表情で意味を伝えます。",
+      "image": "assets/jsl/tomorrow.webp",
+      "emoji": "🔜",
+      "videoUrl": ""
+    },
+    {
+      "id": "yesterday",
+      "word": "昨日",
+      "reading": "きのう",
+      "english": "Yesterday",
+      "category": "時間・曜日",
+      "description": "「今日」を示してから手を手前の過去の方向へ引く図解です。過去を表す方向は地域や話者によって異なる場合があります。",
+      "image": "assets/jsl/yesterday.webp",
+      "emoji": "⏮️",
+      "videoUrl": ""
+    },
+    {
+      "id": "now",
+      "word": "今",
+      "reading": "いま",
+      "english": "Now",
+      "category": "時間・曜日",
+      "description": "人差し指を立てて胸の前で軽く動かす図解です。今この瞬間を示すときは、視線と表情でも注目を促します。",
+      "image": "assets/jsl/now.webp",
+      "emoji": "⏳",
+      "videoUrl": ""
+    },
+    {
+      "id": "asa",
+      "word": "朝",
+      "reading": "あさ",
+      "english": "Morning",
+      "category": "時間・曜日",
+      "description": "手のひらをまぶたの横に当て、目が開くように動かす図解です。すっきり目覚めた表情を添えます。朝の表現は地域差があります。",
+      "image": "assets/jsl/asa.webp",
+      "emoji": "🌄",
+      "videoUrl": ""
+    },
+    {
+      "id": "hiru",
+      "word": "昼",
+      "reading": "ひる",
+      "english": "Noon",
+      "category": "時間・曜日",
+      "description": "お昼の太陽に合わせ、手のひらを上にして頭上近くまで上げる図解です。まぶしそうな表情を添えると時間帯が伝わりやすくなります。",
+      "image": "assets/jsl/hiru.webp",
+      "emoji": "🕛",
+      "videoUrl": ""
+    },
+    {
+      "id": "yoru",
+      "word": "夜",
+      "reading": "よる",
+      "english": "Night",
+      "category": "時間・曜日",
+      "description": "手のひらをまぶたの横に当て、目を閉じるように下ろす図解です。眠そうな静かな表情と合わせます。夜の表現は地域差があります。",
+      "image": "assets/jsl/yoru.webp",
+      "emoji": "🌃",
+      "videoUrl": ""
+    },
+    {
+      "id": "time",
+      "word": "時間",
+      "reading": "じかん",
+      "english": "Time",
+      "category": "時間・曜日",
+      "description": "指先で腕時計の場所を丸くなぞる図解です。時間を意識する表情を添え、前後の語と組み合わせて使いましょう。",
+      "image": "assets/jsl/time.webp",
+      "emoji": "⏱️",
+      "videoUrl": ""
+    },
+    {
+      "id": "clock",
+      "word": "時計",
+      "reading": "とけい",
+      "english": "Clock",
+      "category": "時間・曜日",
+      "description": "人差し指で丸い文字盤を描き、針が動く様子を表す図解です。長針・短針を示す動きと組み合わせると時刻も伝えられます。",
+      "image": "assets/jsl/clock.webp",
+      "emoji": "⌚",
+      "videoUrl": ""
+    },
+    {
+      "id": "week",
+      "word": "週",
+      "reading": "しゅう",
+      "english": "Week",
+      "category": "時間・曜日",
+      "description": "指で「週」の漢字や暦の区切りをなぞる図解です。暦に関わる語は指文字と組み合わせる方法も広く使われています。",
+      "image": "assets/jsl/week.webp",
+      "emoji": "🔁",
+      "videoUrl": ""
+    },
+    {
+      "id": "month",
+      "word": "月",
+      "reading": "つき",
+      "english": "Month",
+      "category": "時間・曜日",
+      "description": "指で三日月の形をなぞる図解です。数詞と組み合わせて「〜か月」のように使います。月の表現は地域差があります。",
+      "image": "assets/jsl/month.webp",
+      "emoji": "🌘",
+      "videoUrl": ""
+    },
+    {
+      "id": "year",
+      "word": "年",
+      "reading": "とし",
+      "english": "Year",
+      "category": "時間・曜日",
+      "description": "握った手を胸の前で回すように動かす図解です。一年の区切りを表す動きとして、数詞と組み合わせて使います。",
+      "image": "assets/jsl/year.webp",
+      "emoji": "🎆",
+      "videoUrl": ""
+    },
+    {
+      "id": "monday",
+      "word": "月曜日",
+      "reading": "げつようび",
+      "english": "Monday",
+      "category": "時間・曜日",
+      "description": "「月」の字形を指でなぞり、曜日であることを口の動きで添える図解です。曜日の表現は地域や講師によって違いが大きいので、信頼できる手本で確認しましょう。",
+      "image": "assets/jsl/monday.webp",
+      "emoji": "🌝",
+      "videoUrl": ""
+    },
+    {
+      "id": "tuesday",
+      "word": "火曜日",
+      "reading": "かようび",
+      "english": "Tuesday",
+      "category": "時間・曜日",
+      "description": "「火」の字形を指でなぞる図解です。曜日の語は指文字を組み合わせる方法も広く使われています。",
+      "image": "assets/jsl/tuesday.webp",
+      "emoji": "🔥",
+      "videoUrl": ""
+    },
+    {
+      "id": "wednesday",
+      "word": "水曜日",
+      "reading": "すいようび",
+      "english": "Wednesday",
+      "category": "時間・曜日",
+      "description": "「水」の字形を指でなぞる図解です。口の動き(読み)と組み合わせて、他の曜日と区別します。",
+      "image": "assets/jsl/wednesday.webp",
+      "emoji": "🌊",
+      "videoUrl": ""
+    },
+    {
+      "id": "thursday",
+      "word": "木曜日",
+      "reading": "もくようび",
+      "english": "Thursday",
+      "category": "時間・曜日",
+      "description": "「木」の字形をなぞる図解です。木や枝を表す動きから連想すると覚えやすくなります。",
+      "image": "assets/jsl/thursday.webp",
+      "emoji": "🌳",
+      "videoUrl": ""
+    },
+    {
+      "id": "friday",
+      "word": "金曜日",
+      "reading": "きんようび",
+      "english": "Friday",
+      "category": "時間・曜日",
+      "description": "「金」の字形をなぞる図解です。お金を表す動きと組み合わせる方法もあります。",
+      "image": "assets/jsl/friday.webp",
+      "emoji": "💰",
+      "videoUrl": ""
+    },
+    {
+      "id": "saturday",
+      "word": "土曜日",
+      "reading": "どようび",
+      "english": "Saturday",
+      "category": "時間・曜日",
+      "description": "「土」の字形をなぞる図解です。地面を示す動きから連想すると覚えやすくなります。",
+      "image": "assets/jsl/saturday.webp",
+      "emoji": "🌍",
+      "videoUrl": ""
+    },
+    {
+      "id": "sunday",
+      "word": "日曜日",
+      "reading": "にちようび",
+      "english": "Sunday",
+      "category": "時間・曜日",
+      "description": "「日」の字形や太陽をなぞる図解です。休日の明るい表情を添えると伝わりやすくなります。",
+      "image": "assets/jsl/sunday.webp",
+      "emoji": "🌞",
+      "videoUrl": ""
+    },
+    {
+      "id": "rice",
+      "word": "ご飯",
+      "reading": "ごはん",
+      "english": "Rice / Meal",
+      "category": "食べ物・飲み物",
+      "description": "茶碗を思い浮かべて、手のひらを上にして口へ運ぶ動きの図解です。食べ物への嬉しさも表情で伝えます。",
+      "image": "assets/jsl/rice.webp",
+      "emoji": "🍚",
+      "videoUrl": ""
+    },
+    {
+      "id": "water",
+      "word": "水",
+      "reading": "みず",
+      "english": "Water",
+      "category": "食べ物・飲み物",
+      "description": "コップを持つ手の形で飲む動きを表す図解です。飲み物の語は口の動き(読み)と組み合わせて区別します。",
+      "image": "assets/jsl/water.webp",
+      "emoji": "💧",
+      "videoUrl": ""
+    },
+    {
+      "id": "tea",
+      "word": "お茶",
+      "reading": "おちゃ",
+      "english": "Tea",
+      "category": "食べ物・飲み物",
+      "description": "湯飲みを支える手の形で、そっと飲む動きの図解です。熱い飲み物は息を吹きかける表情を添えると伝わりやすくなります。",
+      "image": "assets/jsl/tea.webp",
+      "emoji": "🍵",
+      "videoUrl": ""
+    },
+    {
+      "id": "coffee",
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "english": "Coffee",
+      "category": "食べ物・飲み物",
+      "description": "カップを両手で包み、香りを楽しむように飲む図解です。飲み物の語は口の動きと表情で区別しましょう。",
+      "image": "assets/jsl/coffee.webp",
+      "emoji": "☕",
+      "videoUrl": ""
+    },
+    {
+      "id": "bread",
+      "word": "パン",
+      "reading": "パン",
+      "english": "Bread",
+      "category": "食べ物・飲み物",
+      "description": "パンをちぎって口へ運ぶ動きの図解です。食べ物は食べている様子をまねる模倣動作で示すことが多くあります。",
+      "image": "assets/jsl/bread.webp",
+      "emoji": "🍞",
+      "videoUrl": ""
+    },
+    {
+      "id": "meat",
+      "word": "肉",
+      "reading": "にく",
+      "english": "Meat",
+      "category": "食べ物・飲み物",
+      "description": "指で「肉」の漢字やかたまりをなぞる図解です。食べ物の語は、調理や食事の様子の模倣動作で表す方法も広く使われます。",
+      "image": "assets/jsl/meat.webp",
+      "emoji": "🍖",
+      "videoUrl": ""
+    },
+    {
+      "id": "fish",
+      "word": "魚",
+      "reading": "さかな",
+      "english": "Fish",
+      "category": "食べ物・飲み物",
+      "description": "手のひらで魚が泳ぐ様子を表す図解です。魚の形を両手でなぞる方法もあり、口の動きと合わせて使います。",
+      "image": "assets/jsl/fish.webp",
+      "emoji": "🐟",
+      "videoUrl": ""
+    },
+    {
+      "id": "vegetable",
+      "word": "野菜",
+      "reading": "やさい",
+      "english": "Vegetables",
+      "category": "食べ物・飲み物",
+      "description": "畑で育つものを示し、「野菜」の口の動きを添える図解です。表現に地域差があるので、身近な野菜の語と合わせて確認しましょう。",
+      "image": "assets/jsl/vegetable.webp",
+      "emoji": "🥬",
+      "videoUrl": ""
+    },
+    {
+      "id": "fruit",
+      "word": "果物",
+      "reading": "くだもの",
+      "english": "Fruit",
+      "category": "食べ物・飲み物",
+      "description": "木から実を取るように手を伸ばす図解です。果物の語は口の動きで区別し、種類は指文字や模倣動作で示します。",
+      "image": "assets/jsl/fruit.webp",
+      "emoji": "🍇",
+      "videoUrl": ""
+    },
+    {
+      "id": "apple",
+      "word": "りんご",
+      "reading": "りんご",
+      "english": "Apple",
+      "category": "食べ物・飲み物",
+      "description": "りんごの丸い形を手でなぞり、頬に当てる図解です。赤い色や丸さを表情と動きで添えます。",
+      "image": "assets/jsl/apple.webp",
+      "emoji": "🍎",
+      "videoUrl": ""
+    },
+    {
+      "id": "egg",
+      "word": "卵",
+      "reading": "たまご",
+      "english": "Egg",
+      "category": "食べ物・飲み物",
+      "description": "卵を握って割る動きの図解です。調理の様子をまねる模倣動作で表します。",
+      "image": "assets/jsl/egg.webp",
+      "emoji": "🥚",
+      "videoUrl": ""
+    },
+    {
+      "id": "milk",
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "english": "Milk",
+      "category": "食べ物・飲み物",
+      "description": "牛の角や乳しぼりの動きを示す図解です。飲み物として口へ運ぶ動きと組み合わせると伝わりやすくなります。",
+      "image": "assets/jsl/milk.webp",
+      "emoji": "🥛",
+      "videoUrl": ""
+    },
+    {
+      "id": "sake",
+      "word": "お酒",
+      "reading": "おさけ",
+      "english": "Sake / Alcohol",
+      "category": "食べ物・飲み物",
+      "description": "おちょこを傾けて飲む動きの図解です。飲み物の種類は口の動きと表情でニュアンスも添えます。",
+      "image": "assets/jsl/sake.webp",
+      "emoji": "🍶",
+      "videoUrl": ""
+    },
+    {
+      "id": "udon",
+      "word": "うどん",
+      "reading": "うどん",
+      "english": "Udon noodles",
+      "category": "食べ物・飲み物",
+      "description": "麺を伸ばすように両手を引き合う図解です。麺類は長さや食感を表す動きと口の動きで区別します。",
+      "image": "assets/jsl/udon.webp",
+      "emoji": "🍜",
+      "videoUrl": ""
+    },
+    {
+      "id": "curry",
+      "word": "カレー",
+      "reading": "カレー",
+      "english": "Curry",
+      "category": "食べ物・飲み物",
+      "description": "スプーンで食べる動きと、とろみや色を示す図解です。料理名は模倣動作と指文字を組み合わせて表すことが多いです。",
+      "image": "assets/jsl/curry.webp",
+      "emoji": "🍛",
+      "videoUrl": ""
+    },
+    {
+      "id": "snack",
+      "word": "お菓子",
+      "reading": "おかし",
+      "english": "Snack / Sweets",
+      "category": "食べ物・飲み物",
+      "description": "小さくちぎって口へ運ぶ動きの図解です。甘いものの嬉しさも表情で伝えると意味が伝わりやすくなります。",
+      "image": "assets/jsl/snack.webp",
+      "emoji": "🍪",
+      "videoUrl": ""
+    },
+    {
+      "id": "juice",
+      "word": "ジュース",
+      "reading": "ジュース",
+      "english": "Juice",
+      "category": "食べ物・飲み物",
+      "description": "コップやパックを持って飲む動きの図解です。飲み物の語は口の動き(読み)と組み合わせて区別しましょう。",
+      "image": "assets/jsl/juice.webp",
+      "emoji": "🧃",
+      "videoUrl": ""
+    },
+    {
+      "id": "miso-soup",
+      "word": "味噌汁",
+      "reading": "みそしる",
+      "english": "Miso soup",
+      "category": "食べ物・飲み物",
+      "description": "お椀を両手で包み、すするように口へ運ぶ図解です。汁物は熱い様子の表情も添えます。",
+      "image": "assets/jsl/miso-soup.webp",
+      "emoji": "🍲",
+      "videoUrl": ""
+    },
+    {
+      "id": "happy",
+      "word": "嬉しい",
+      "reading": "うれしい",
+      "english": "Happy",
+      "category": "感情",
+      "description": "胸の前で手を軽く跳ね上げる図解です。口元がほころぶ明るい表情が大切です。感情の語は表情で意味が決まります。",
+      "image": "assets/jsl/happy.webp",
+      "emoji": "😊",
+      "videoUrl": ""
+    },
+    {
+      "id": "sad",
+      "word": "悲しい",
+      "reading": "かなしい",
+      "english": "Sad",
+      "category": "感情",
+      "description": "目元へ手をやり、下へ落とす図解です。悲しい表情と落ち込んだ動きを合わせると気持ちが伝わります。",
+      "image": "assets/jsl/sad.webp",
+      "emoji": "😢",
+      "videoUrl": ""
+    },
+    {
+      "id": "fun",
+      "word": "楽しい",
+      "reading": "たのしい",
+      "english": "Fun / Enjoyable",
+      "category": "感情",
+      "description": "体の前で手を弾ませるように動かす図解です。わくわくする表情と組み合わせます。",
+      "image": "assets/jsl/fun.webp",
+      "emoji": "😄",
+      "videoUrl": ""
+    },
+    {
+      "id": "angry",
+      "word": "怒る",
+      "reading": "おこる",
+      "english": "Angry",
+      "category": "感情",
+      "description": "胸の前で手を握り、震わせる図解です。しかめっ面の表情が重要で、怒りの度合いは表情と動きの大きさで調整します。",
+      "image": "assets/jsl/angry.webp",
+      "emoji": "😠",
+      "videoUrl": ""
+    },
+    {
+      "id": "scared",
+      "word": "怖い",
+      "reading": "こわい",
+      "english": "Scared",
+      "category": "感情",
+      "description": "身を縮めて腕を前に構える図解です。こわばった表情と合わせると恐怖が伝わります。",
+      "image": "assets/jsl/scared.webp",
+      "emoji": "😨",
+      "videoUrl": ""
+    },
+    {
+      "id": "surprised",
+      "word": "驚く",
+      "reading": "おどろく",
+      "english": "Surprised",
+      "category": "感情",
+      "description": "手を広げて胸の前へ素早く出す図解です。目を見開く表情が驚きを表す決め手になります。",
+      "image": "assets/jsl/surprised.webp",
+      "emoji": "😲",
+      "videoUrl": ""
+    },
+    {
+      "id": "dislike",
+      "word": "嫌い",
+      "reading": "きらい",
+      "english": "Dislike",
+      "category": "感情",
+      "description": "胸の前の手を押し退けるように動かす図解です。いやな表情をはっきり添えることが大切です。",
+      "image": "assets/jsl/dislike.webp",
+      "emoji": "👎",
+      "videoUrl": ""
+    },
+    {
+      "id": "worried",
+      "word": "心配",
+      "reading": "しんぱい",
+      "english": "Worried",
+      "category": "感情",
+      "description": "胸に手を当てて、もじもじと動かす図解です。不安そうな表情とため息を組み合わせます。",
+      "image": "assets/jsl/worried.webp",
+      "emoji": "😟",
+      "videoUrl": ""
+    },
+    {
+      "id": "relieved",
+      "word": "安心",
+      "reading": "あんしん",
+      "english": "Relieved",
+      "category": "感情",
+      "description": "胸に当てた手をゆっくり下ろし、息を吐く図解です。ほっとした表情を添えます。",
+      "image": "assets/jsl/relieved.webp",
+      "emoji": "😌",
+      "videoUrl": ""
+    },
+    {
+      "id": "nervous",
+      "word": "緊張",
+      "reading": "きんちょう",
+      "english": "Nervous",
+      "category": "感情",
+      "description": "握った手を胸の前で小刻みに動かす図解です。こわばった表情と硬い動きで表します。",
+      "image": "assets/jsl/nervous.webp",
+      "emoji": "😬",
+      "videoUrl": ""
+    },
+    {
+      "id": "sleepy",
+      "word": "眠い",
+      "reading": "ねむい",
+      "english": "Sleepy",
+      "category": "感情",
+      "description": "手を枕のように頬に当て、頭をかしげる図解です。まぶたが重そうな表情を添えます。",
+      "image": "assets/jsl/sleepy.webp",
+      "emoji": "😴",
+      "videoUrl": ""
+    },
+    {
+      "id": "tired",
+      "word": "疲れた",
+      "reading": "つかれた",
+      "english": "Tired",
+      "category": "感情",
+      "description": "肩を落とし、手で体を支えるように下へ動かす図解です。ぐったりした表情が大切です。",
+      "image": "assets/jsl/tired.webp",
+      "emoji": "😩",
+      "videoUrl": ""
+    },
+    {
+      "id": "embarrassed",
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "english": "Embarrassed",
+      "category": "感情",
+      "description": "頬を手で覆ったり、顔を伏せたりする図解です。赤面するような表情と合わせます。",
+      "image": "assets/jsl/embarrassed.webp",
+      "emoji": "😳",
+      "videoUrl": ""
+    },
+    {
+      "id": "lonely",
+      "word": "寂しい",
+      "reading": "さびしい",
+      "english": "Lonely",
+      "category": "感情",
+      "description": "胸を押さえて、体を小さくする図解です。さみしげな表情で気持ちを伝えます。",
+      "image": "assets/jsl/lonely.webp",
+      "emoji": "🥺",
+      "videoUrl": ""
+    },
+    {
+      "id": "interested",
+      "word": "興味",
+      "reading": "きょうみ",
+      "english": "Interested",
+      "category": "感情",
+      "description": "目の前の手を引き寄せるように動かす図解です。関心がある対象へ視線を向け、興味深そうな表情を添えます。",
+      "image": "assets/jsl/interested.webp",
+      "emoji": "🤔",
+      "videoUrl": ""
+    },
+    {
+      "id": "love",
+      "word": "大好き",
+      "reading": "だいすき",
+      "english": "Love it",
+      "category": "感情",
+      "description": "胸の前で腕を組み、ぎゅっと抱きしめる図解です。愛おしい表情を添えると気持ちが伝わります。好きの気持ちの強さは表情で調整します。",
+      "image": "assets/jsl/love.webp",
+      "emoji": "❤️",
+      "videoUrl": ""
+    },
+    {
+      "id": "weather",
+      "word": "天気",
+      "reading": "てんき",
+      "english": "Weather",
+      "category": "天気・季節",
+      "description": "窓の外を眺めるように手をかげて、空を示す図解です。晴れや雨などの語と組み合わせて使います。",
+      "image": "assets/jsl/weather.webp",
+      "emoji": "🌤️",
+      "videoUrl": ""
+    },
+    {
+      "id": "sunny",
+      "word": "晴れ",
+      "reading": "はれ",
+      "english": "Sunny",
+      "category": "天気・季節",
+      "description": "空高くにある太陽に手をかざす図解です。まぶしそうな明るい表情を添えます。",
+      "image": "assets/jsl/sunny.webp",
+      "emoji": "☀️",
+      "videoUrl": ""
+    },
+    {
+      "id": "rain",
+      "word": "雨",
+      "reading": "あめ",
+      "english": "Rain",
+      "category": "天気・季節",
+      "description": "指先を下にして、雨が降るように動かす図解です。雨の強さは動きの大きさと表情で表し分けます。",
+      "image": "assets/jsl/rain.webp",
+      "emoji": "🌧️",
+      "videoUrl": ""
+    },
+    {
+      "id": "snow",
+      "word": "雪",
+      "reading": "ゆき",
+      "english": "Snow",
+      "category": "天気・季節",
+      "description": "指先を下にして、雪が舞うようにゆっくり動かす図解です。寒そうな表情を添えると伝わりやすくなります。",
+      "image": "assets/jsl/snow.webp",
+      "emoji": "❄️",
+      "videoUrl": ""
+    },
+    {
+      "id": "wind",
+      "word": "風",
+      "reading": "かぜ",
+      "english": "Wind",
+      "category": "天気・季節",
+      "description": "手のひらを波のように動かし、風が吹く様子を表す図解です。髪や服がなびく様子をまねる方法もあります。",
+      "image": "assets/jsl/wind.webp",
+      "emoji": "💨",
+      "videoUrl": ""
+    },
+    {
+      "id": "cloudy",
+      "word": "曇り",
+      "reading": "くもり",
+      "english": "Cloudy",
+      "category": "天気・季節",
+      "description": "空を覆うように手を重ねて広げる図解です。どんよりした表情を添えます。",
+      "image": "assets/jsl/cloudy.webp",
+      "emoji": "☁️",
+      "videoUrl": ""
+    },
+    {
+      "id": "hot",
+      "word": "暑い",
+      "reading": "あつい",
+      "english": "Hot",
+      "category": "天気・季節",
+      "description": "手で顔や首元をあおぐ図解です。汗をぬぐう動きと、暑がる表情を組み合わせます。",
+      "image": "assets/jsl/hot.webp",
+      "emoji": "🥵",
+      "videoUrl": ""
+    },
+    {
+      "id": "cold",
+      "word": "寒い",
+      "reading": "さむい",
+      "english": "Cold",
+      "category": "天気・季節",
+      "description": "両腕で体を抱き、震える図解です。寒がる表情をはっきり添えることが大切です。",
+      "image": "assets/jsl/cold.webp",
+      "emoji": "🥶",
+      "videoUrl": ""
+    },
+    {
+      "id": "cool",
+      "word": "涼しい",
+      "reading": "すずしい",
+      "english": "Cool",
+      "category": "天気・季節",
+      "description": "手のひらで顔に風を送るように動かす図解です。心地よさを感じる表情を添えます。",
+      "image": "assets/jsl/cool.webp",
+      "emoji": "🍃",
+      "videoUrl": ""
+    },
+    {
+      "id": "warm",
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "english": "Warm",
+      "category": "天気・季節",
+      "description": "両手をほほに当て、ぽかぽかと温まる様子を表す図解です。ほっとした表情と合わせます。",
+      "image": "assets/jsl/warm.webp",
+      "emoji": "☺️",
+      "videoUrl": ""
+    },
+    {
+      "id": "spring",
+      "word": "春",
+      "reading": "はる",
+      "english": "Spring",
+      "category": "天気・季節",
+      "description": "花が咲く様子を手で表す図解です。桜を示す動きと組み合わせる方法もあり、明るい表情を添えます。",
+      "image": "assets/jsl/spring.webp",
+      "emoji": "🌸",
+      "videoUrl": ""
+    },
+    {
+      "id": "summer",
+      "word": "夏",
+      "reading": "なつ",
+      "english": "Summer",
+      "category": "天気・季節",
+      "description": "汗をぬぐったり、あおいだりする動きで暑い季節を示す図解です。季節の語は口の動きと組み合わせて使います。",
+      "image": "assets/jsl/summer.webp",
+      "emoji": "⛱️",
+      "videoUrl": ""
+    },
+    {
+      "id": "autumn",
+      "word": "秋",
+      "reading": "あき",
+      "english": "Autumn",
+      "category": "天気・季節",
+      "description": "紅葉や実りの様子を手でなぞる図解です。落ち葉が舞う動きで表す方法もあり、しんみりした表情を添えることもあります。",
+      "image": "assets/jsl/autumn.webp",
+      "emoji": "🍁",
+      "videoUrl": ""
+    },
+    {
+      "id": "winter",
+      "word": "冬",
+      "reading": "ふゆ",
+      "english": "Winter",
+      "category": "天気・季節",
+      "description": "体を抱いて震える動きや、白い息を吐く様子で表す図解です。寒い季節であることを表情で添えます。",
+      "image": "assets/jsl/winter.webp",
+      "emoji": "⛄",
+      "videoUrl": ""
+    },
+    {
+      "id": "typhoon",
+      "word": "台風",
+      "reading": "たいふう",
+      "english": "Typhoon",
+      "category": "天気・季節",
+      "description": "両手で渦を描くように回す図解です。風の強さと警戒する様子を表情と動きで表します。",
+      "image": "assets/jsl/typhoon.webp",
+      "emoji": "🌀",
+      "videoUrl": ""
+    },
+    {
+      "id": "rainy-season",
+      "word": "梅雨",
+      "reading": "つゆ",
+      "english": "Rainy season",
+      "category": "天気・季節",
+      "description": "雨の動きと、じめじめした様子を組み合わせた図解です。季節の言い方は地域差があるので、口の動きと合わせて確認しましょう。",
+      "image": "assets/jsl/rainy-season.webp",
+      "emoji": "☔",
+      "videoUrl": ""
+    },
+    {
+      "id": "go",
+      "word": "行く",
+      "reading": "いく",
+      "english": "Go",
+      "category": "動詞",
+      "description": "人差し指で進む方向を示す図解です。行き先を示す語と組み合わせて使います。",
+      "image": "assets/jsl/go.webp",
+      "emoji": "🚶",
+      "videoUrl": ""
+    },
+    {
+      "id": "come",
+      "word": "来る",
+      "reading": "くる",
+      "english": "Come",
+      "category": "動詞",
+      "description": "手のひらをこちらに向け、手前に引き寄せる図解です。呼ぶ表情と組み合わせると伝わりやすくなります。",
+      "image": "assets/jsl/come.webp",
+      "emoji": "🏃",
+      "videoUrl": ""
+    },
+    {
+      "id": "see",
+      "word": "見る",
+      "reading": "みる",
+      "english": "Look / See",
+      "category": "動詞",
+      "description": "人差し指と中指を目に向け、外へ動かす図解です。見る対象へ視線を向けることが大切です。",
+      "image": "assets/jsl/see.webp",
+      "emoji": "👀",
+      "videoUrl": ""
+    },
+    {
+      "id": "listen",
+      "word": "聞く",
+      "reading": "きく",
+      "english": "Listen / Hear",
+      "category": "動詞",
+      "description": "人差し指を耳に近づける図解です。耳を澄ますような表情と合わせます。",
+      "image": "assets/jsl/listen.webp",
+      "emoji": "👂",
+      "videoUrl": ""
+    },
+    {
+      "id": "speak",
+      "word": "話す",
+      "reading": "はなす",
+      "english": "Speak / Talk",
+      "category": "動詞",
+      "description": "口の前で指を動かし、言葉が出る様子を表す図解です。会話の様子を表す表情を添えます。",
+      "image": "assets/jsl/speak.webp",
+      "emoji": "💬",
+      "videoUrl": ""
+    },
+    {
+      "id": "eat",
+      "word": "食べる",
+      "reading": "たべる",
+      "english": "Eat",
+      "category": "動詞",
+      "description": "指をまとめて口へ運ぶ図解です。食べ物の語と組み合わせて使うことが多いです。",
+      "image": "assets/jsl/eat.webp",
+      "emoji": "🍴",
+      "videoUrl": ""
+    },
+    {
+      "id": "drink",
+      "word": "飲む",
+      "reading": "のむ",
+      "english": "Drink",
+      "category": "動詞",
+      "description": "コップを持つ手の形で口へ傾ける図解です。飲み物の語と組み合わせて使います。",
+      "image": "assets/jsl/drink.webp",
+      "emoji": "🥤",
+      "videoUrl": ""
+    },
+    {
+      "id": "do",
+      "word": "する",
+      "reading": "する",
+      "english": "Do",
+      "category": "動詞",
+      "description": "手を軽く振って、物事を行う様子を表す図解です。動作の内容を表す語と組み合わせます。",
+      "image": "assets/jsl/do.webp",
+      "emoji": "⚙️",
+      "videoUrl": ""
+    },
+    {
+      "id": "make",
+      "word": "作る",
+      "reading": "つくる",
+      "english": "Make",
+      "category": "動詞",
+      "description": "手で組み立てる・こねる様子を表す図解です。何を作るかを示す語と組み合わせると伝わりやすくなります。",
+      "image": "assets/jsl/make.webp",
+      "emoji": "🛠️",
+      "videoUrl": ""
+    },
+    {
+      "id": "wait",
+      "word": "待つ",
+      "reading": "まつ",
+      "english": "Wait",
+      "category": "動詞",
+      "description": "手のひらを下にして、軽く叩くように動かす図解です。じれた様子や我慢する表情を添えます。",
+      "image": "assets/jsl/wait.webp",
+      "emoji": "🕐",
+      "videoUrl": ""
+    },
+    {
+      "id": "encounter",
+      "word": "会う",
+      "reading": "あう",
+      "english": "Meet",
+      "category": "動詞",
+      "description": "両手の人差し指を引き寄せ、向かい合わせる図解です。人と会う様子を嬉しい表情で添えます。",
+      "image": "assets/jsl/encounter.webp",
+      "emoji": "👥",
+      "videoUrl": ""
+    },
+    {
+      "id": "think",
+      "word": "思う",
+      "reading": "おもう",
+      "english": "Think",
+      "category": "動詞",
+      "description": "指をこめかみに当て、考える様子を表す図解です。考えていることを表す表情と組み合わせます。",
+      "image": "assets/jsl/think.webp",
+      "emoji": "💭",
+      "videoUrl": ""
+    },
+    {
+      "id": "know",
+      "word": "知る",
+      "reading": "しる",
+      "english": "Know",
+      "category": "動詞",
+      "description": "指を額に当てて、頭に入っている様子を表す図解です。分かったという表情を添えます。",
+      "image": "assets/jsl/know.webp",
+      "emoji": "🧠",
+      "videoUrl": ""
+    },
+    {
+      "id": "memorize",
+      "word": "覚える",
+      "reading": "おぼえる",
+      "english": "Memorize",
+      "category": "動詞",
+      "description": "額に当てた手で、頭に押し込むように動かす図解です。覚える対象を示す語と組み合わせて使います。",
+      "image": "assets/jsl/memorize.webp",
+      "emoji": "📝",
+      "videoUrl": ""
+    },
+    {
+      "id": "forget",
+      "word": "忘れる",
+      "reading": "わすれる",
+      "english": "Forget",
+      "category": "動詞",
+      "description": "額から手を離し、忘れ去る様子を表す図解です。はっと気づく表情や困った表情を添えると伝わりやすくなります。",
+      "image": "assets/jsl/forget.webp",
+      "emoji": "🙈",
+      "videoUrl": ""
+    },
+    {
+      "id": "buy",
+      "word": "買う",
+      "reading": "かう",
+      "english": "Buy",
+      "category": "動詞",
+      "description": "お金を渡す動きや、物を受け取る動きで表す図解です。買うものを示す語と組み合わせます。",
+      "image": "assets/jsl/buy.webp",
+      "emoji": "🛒",
+      "videoUrl": ""
+    },
+    {
+      "id": "write",
+      "word": "書く",
+      "reading": "かく",
+      "english": "Write",
+      "category": "動詞",
+      "description": "手でペンを持つ形を作り、書く動きをする図解です。書くものや内容を示す語と組み合わせます。",
+      "image": "assets/jsl/write.webp",
+      "emoji": "✍️",
+      "videoUrl": ""
+    },
+    {
+      "id": "read",
+      "word": "読む",
+      "reading": "よむ",
+      "english": "Read",
+      "category": "動詞",
+      "description": "本を開いた両手で、目で追うように動かす図解です。読むものを示す語と組み合わせて使います。",
+      "image": "assets/jsl/read.webp",
+      "emoji": "📖",
+      "videoUrl": ""
+    },
+    {
+      "id": "what",
+      "word": "何",
+      "reading": "なに",
+      "english": "What",
+      "category": "疑問詞",
+      "description": "人差し指を立てて、小さく揺らしながら疑問の表情を作る図解です。疑問の語は、眉を上げて不思議そうな顔をすることが大切です。",
+      "image": "assets/jsl/what.webp",
+      "emoji": "❓",
+      "videoUrl": ""
+    },
+    {
+      "id": "who",
+      "word": "だれ",
+      "reading": "だれ",
+      "english": "Who",
+      "category": "疑問詞",
+      "description": "人差し指で周囲の人を示し、疑問の表情を添える図解です。誰か分からない様子を眉の動きで表します。",
+      "image": "assets/jsl/who.webp",
+      "emoji": "👤",
+      "videoUrl": ""
+    },
+    {
+      "id": "where",
+      "word": "どこ",
+      "reading": "どこ",
+      "english": "Where",
+      "category": "疑問詞",
+      "description": "人差し指であたりを見回すように動かす図解です。探すような視線と疑問の表情を組み合わせます。",
+      "image": "assets/jsl/where.webp",
+      "emoji": "📍",
+      "videoUrl": ""
+    },
+    {
+      "id": "when",
+      "word": "いつ",
+      "reading": "いつ",
+      "english": "When",
+      "category": "疑問詞",
+      "description": "指で時間の流れをなぞり、疑問の表情を添える図解です。時を尋ねるときは、眉を上げて尋ねる表情をします。",
+      "image": "assets/jsl/when.webp",
+      "emoji": "📆",
+      "videoUrl": ""
+    },
+    {
+      "id": "why",
+      "word": "どうして",
+      "reading": "どうして",
+      "english": "Why",
+      "category": "疑問詞",
+      "description": "指で状況を示し、首をかしげる図解です。理由を尋ねる不思議そうな表情が決め手になります。",
+      "image": "assets/jsl/why.webp",
+      "emoji": "🤷",
+      "videoUrl": ""
+    },
+    {
+      "id": "naze",
+      "word": "なぜ",
+      "reading": "なぜ",
+      "english": "Why (formal)",
+      "category": "疑問詞",
+      "description": "「どうして」と同じように、首をかしげて理由を尋ねる図解です。書き言葉寄りの語なので、口の動きと組み合わせて使います。",
+      "image": "assets/jsl/naze.webp",
+      "emoji": "🤨",
+      "videoUrl": ""
+    },
+    {
+      "id": "how",
+      "word": "どう",
+      "reading": "どう",
+      "english": "How",
+      "category": "疑問詞",
+      "description": "手のひらを上にして、様子を尋ねるように動かす図解です。方法や状態を尋ねる表情を添えます。",
+      "image": "assets/jsl/how.webp",
+      "emoji": "🔧",
+      "videoUrl": ""
+    },
+    {
+      "id": "which",
+      "word": "どれ",
+      "reading": "どれ",
+      "english": "Which",
+      "category": "疑問詞",
+      "description": "選ぶように指で示し、疑問の表情を作る図解です。複数の選択肢を見渡す視線を組み合わせます。",
+      "image": "assets/jsl/which.webp",
+      "emoji": "👉",
+      "videoUrl": ""
+    },
+    {
+      "id": "which-way",
+      "word": "どちら",
+      "reading": "どちら",
+      "english": "Which way",
+      "category": "疑問詞",
+      "description": "手のひらを上にして両方向へ傾け、どちらか尋ねる図解です。方向や選択を示す語と組み合わせます。",
+      "image": "assets/jsl/which-way.webp",
+      "emoji": "🧭",
+      "videoUrl": ""
+    },
+    {
+      "id": "how-many",
+      "word": "いくつ",
+      "reading": "いくつ",
+      "english": "How many",
+      "category": "疑問詞",
+      "description": "指を立てて数え、疑問の表情を添える図解です。数を尋ねるときは、数える動きと組み合わせます。",
+      "image": "assets/jsl/how-many.webp",
+      "emoji": "🔢",
+      "videoUrl": ""
+    },
+    {
+      "id": "how-much",
+      "word": "いくら",
+      "reading": "いくら",
+      "english": "How much",
+      "category": "疑問詞",
+      "description": "お金を示す動きと数える動きを組み合わせた図解です。値段を尋ねるときは、買い物の文脈と表情で伝えます。",
+      "image": "assets/jsl/how-much.webp",
+      "emoji": "💴",
+      "videoUrl": ""
+    },
+    {
+      "id": "what-kind",
+      "word": "どんな",
+      "reading": "どんな",
+      "english": "What kind",
+      "category": "疑問詞",
+      "description": "手のひらを上にして、様子を問うように動かす図解です。性質や特徴を尋ねる表情を添えます。",
+      "image": "assets/jsl/what-kind.webp",
+      "emoji": "🎨",
+      "videoUrl": ""
+    },
+    {
+      "id": "what-time",
+      "word": "何時",
+      "reading": "なんじ",
+      "english": "What time",
+      "category": "疑問詞",
+      "description": "腕時計の場所を指し、疑問の表情を添える図解です。時刻を尋ねるときは、時計を見る動きと組み合わせます。",
+      "image": "assets/jsl/what-time.webp",
+      "emoji": "🕒",
+      "videoUrl": ""
+    },
+    {
+      "id": "how-old",
+      "word": "何歳",
+      "reading": "なんさい",
+      "english": "How old",
+      "category": "疑問詞",
+      "description": "年齢を表す動きと疑問の表情を組み合わせた図解です。相手に尋ねるときは、丁寧な表情も大切です。",
+      "image": "assets/jsl/how-old.webp",
+      "emoji": "🎂",
+      "videoUrl": ""
+    },
+    {
+      "id": "what-day",
+      "word": "何曜日",
+      "reading": "なんようび",
+      "english": "What day",
+      "category": "疑問詞",
+      "description": "曜日を示す動きと疑問の表情を組み合わせた図解です。暦を尋ねるときは、口の動きも添えて伝えます。",
+      "image": "assets/jsl/what-day.webp",
+      "emoji": "🗓️",
       "videoUrl": ""
     }
   ]
@@ -791,7 +1919,15 @@ window.LOCAL_DATA = {
       "romaji": "a",
       "type": "seion",
       "description": "親指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(アルファベット「a」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/a.webp"
+      "image": "assets/jsl/fingerspelling/a.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "X1OeDGFxtNM",
+        "start": 0,
+        "title": "手話動画 第58回「指文字 あ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=X1OeDGFxtNM"
+      }
     },
     {
       "id": "i",
@@ -799,7 +1935,15 @@ window.LOCAL_DATA = {
       "romaji": "i",
       "type": "seion",
       "description": "小指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(アルファベット「i」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/i.webp"
+      "image": "assets/jsl/fingerspelling/i.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "X1OeDGFxtNM",
+        "start": 0,
+        "title": "手話動画 第58回「指文字 あ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=X1OeDGFxtNM"
+      }
     },
     {
       "id": "u",
@@ -807,7 +1951,15 @@ window.LOCAL_DATA = {
       "romaji": "u",
       "type": "seion",
       "description": "人差し指・中指をそろえてまっすぐ伸ばし、残り3本は握ります。手のひらを相手に向けます(アルファベット「u」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/u.webp"
+      "image": "assets/jsl/fingerspelling/u.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "X1OeDGFxtNM",
+        "start": 0,
+        "title": "手話動画 第58回「指文字 あ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=X1OeDGFxtNM"
+      }
     },
     {
       "id": "e",
@@ -815,7 +1967,15 @@ window.LOCAL_DATA = {
       "romaji": "e",
       "type": "seion",
       "description": "5本すべての指を第2関節で軽く曲げます(かぎ爪のような形)。手のひらを相手に向けます(アルファベット「e」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/e.webp"
+      "image": "assets/jsl/fingerspelling/e.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "X1OeDGFxtNM",
+        "start": 0,
+        "title": "手話動画 第58回「指文字 あ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=X1OeDGFxtNM"
+      }
     },
     {
       "id": "o",
@@ -823,7 +1983,15 @@ window.LOCAL_DATA = {
       "romaji": "o",
       "type": "seion",
       "description": "親指の先に残り4本の指先をつけて輪(丸)を作ります。穴が手前から見えるように構えます(アルファベット「o」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/o.webp"
+      "image": "assets/jsl/fingerspelling/o.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "X1OeDGFxtNM",
+        "start": 0,
+        "title": "手話動画 第58回「指文字 あ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=X1OeDGFxtNM"
+      }
     },
     {
       "id": "ka",
@@ -831,7 +1999,15 @@ window.LOCAL_DATA = {
       "romaji": "ka",
       "type": "seion",
       "description": "人差し指と中指でチョキ(V)の形を作り、親指の腹を中指の第2関節に当てます。手のひらを相手に向けます(アルファベット「k」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/ka.webp"
+      "image": "assets/jsl/fingerspelling/ka.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "ki",
@@ -839,7 +2015,15 @@ window.LOCAL_DATA = {
       "romaji": "ki",
       "type": "seion",
       "description": "親指・中指・薬指の指先をつけ、人差し指と小指をまっすぐ伸ばします。キツネの影絵のような形です。手のひらを相手に向けます。",
-      "image": "assets/jsl/fingerspelling/ki.webp"
+      "image": "assets/jsl/fingerspelling/ki.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "ku",
@@ -847,7 +2031,15 @@ window.LOCAL_DATA = {
       "romaji": "ku",
       "type": "seion",
       "description": "手の甲を相手に向け、親指は上向きに立て、人差し指・中指・薬指・小指はそろえて横向きに伸ばします(数字の「9」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/ku.webp"
+      "image": "assets/jsl/fingerspelling/ku.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "ke",
@@ -855,7 +2047,15 @@ window.LOCAL_DATA = {
       "romaji": "ke",
       "type": "seion",
       "description": "親指を手のひらに折り込み、残り4本の指をそろえてまっすぐ伸ばします(敬礼する手の形、アルファベット「b」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/ke.webp"
+      "image": "assets/jsl/fingerspelling/ke.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "ko",
@@ -863,7 +2063,15 @@ window.LOCAL_DATA = {
       "romaji": "ko",
       "type": "seion",
       "description": "親指以外の4本をそろえて根元から直角に曲げ、小指側の側面を相手に向けます(カタカナ「コ」の一画を表します)。",
-      "image": "assets/jsl/fingerspelling/ko.webp"
+      "image": "assets/jsl/fingerspelling/ko.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "sa",
@@ -871,7 +2079,15 @@ window.LOCAL_DATA = {
       "romaji": "sa",
       "type": "seion",
       "description": "5本の指をすべて握り込んだ「グー」の形にします(親指は外側)。手のひらを相手に向けます(アルファベット「s」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/sa.webp"
+      "image": "assets/jsl/fingerspelling/sa.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "shi",
@@ -879,7 +2095,15 @@ window.LOCAL_DATA = {
       "romaji": "shi",
       "type": "seion",
       "description": "手の甲を相手に向け、親指を上向きに立て、人差し指・中指をそろえて横向きに伸ばします(数字の「7」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/shi.webp"
+      "image": "assets/jsl/fingerspelling/shi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "su",
@@ -887,7 +2111,15 @@ window.LOCAL_DATA = {
       "romaji": "su",
       "type": "seion",
       "description": "「し」の形を作ったあと、手首を支点に指先が下を向くまで倒します(カタカナ「ス」の形)。",
-      "image": "assets/jsl/fingerspelling/su.webp"
+      "image": "assets/jsl/fingerspelling/su.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "se",
@@ -895,7 +2127,15 @@ window.LOCAL_DATA = {
       "romaji": "se",
       "type": "seion",
       "description": "握った「グー」の形から中指だけをまっすぐ伸ばし、指の腹を相手に向けます(「背」がピンと伸びている様子)。",
-      "image": "assets/jsl/fingerspelling/se.webp"
+      "image": "assets/jsl/fingerspelling/se.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "so",
@@ -903,7 +2143,15 @@ window.LOCAL_DATA = {
       "romaji": "so",
       "type": "seion",
       "description": "人差し指だけを伸ばし、指先をやや斜め下に向けて「それ」を指し示します。残り4本は握ります。",
-      "image": "assets/jsl/fingerspelling/so.webp"
+      "image": "assets/jsl/fingerspelling/so.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "ta",
@@ -911,7 +2159,15 @@ window.LOCAL_DATA = {
       "romaji": "ta",
       "type": "seion",
       "description": "親指だけを立て、指の腹を相手に向けます(「いいね」のサイン、アルファベット「t」の指文字と同じ)。残り4本は握ります。",
-      "image": "assets/jsl/fingerspelling/ta.webp"
+      "image": "assets/jsl/fingerspelling/ta.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "chi",
@@ -919,7 +2175,15 @@ window.LOCAL_DATA = {
       "romaji": "chi",
       "type": "seion",
       "description": "親指・人差し指・中指・薬指の指先をそろえてつけ、小指だけをまっすぐ立てます(漢数字「千」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/chi.webp"
+      "image": "assets/jsl/fingerspelling/chi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "tsu",
@@ -927,7 +2191,15 @@ window.LOCAL_DATA = {
       "romaji": "tsu",
       "type": "seion",
       "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。",
-      "image": "assets/jsl/fingerspelling/tsu.webp"
+      "image": "assets/jsl/fingerspelling/tsu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "te",
@@ -935,7 +2207,15 @@ window.LOCAL_DATA = {
       "romaji": "te",
       "type": "seion",
       "description": "5本の指をそろえてまっすぐ伸ばし、手のひらをそのまま相手に見せます。",
-      "image": "assets/jsl/fingerspelling/te.webp"
+      "image": "assets/jsl/fingerspelling/te.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "to",
@@ -943,7 +2223,15 @@ window.LOCAL_DATA = {
       "romaji": "to",
       "type": "seion",
       "description": "人差し指・中指をそろえて伸ばし、手の甲を相手に向けます(「う」と向きが逆、戸をたたく感じ)。",
-      "image": "assets/jsl/fingerspelling/to.webp"
+      "image": "assets/jsl/fingerspelling/to.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "na",
@@ -951,7 +2239,15 @@ window.LOCAL_DATA = {
       "romaji": "na",
       "type": "seion",
       "description": "人差し指・中指を離して伸ばしたあと、手首を軸に前へ曲げ、指先が下を向くようにします(アルファベット「n」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/na.webp"
+      "image": "assets/jsl/fingerspelling/na.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "wLWI8zPeE5w",
+        "start": 0,
+        "title": "手話動画 第62回「指文字 な行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=wLWI8zPeE5w"
+      }
     },
     {
       "id": "ni",
@@ -959,7 +2255,15 @@ window.LOCAL_DATA = {
       "romaji": "ni",
       "type": "seion",
       "description": "手のひらを自分側に向け、人差し指・中指をそろえて水平に伸ばします(漢数字「二」・カタカナ「ニ」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/ni.webp"
+      "image": "assets/jsl/fingerspelling/ni.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "wLWI8zPeE5w",
+        "start": 0,
+        "title": "手話動画 第62回「指文字 な行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=wLWI8zPeE5w"
+      }
     },
     {
       "id": "nu",
@@ -967,7 +2271,15 @@ window.LOCAL_DATA = {
       "romaji": "nu",
       "type": "seion",
       "description": "親指を手前に構え、人差し指を第2関節でカギのように曲げます。残りの指は握ります(「盗っ人」のジェスチャーと同じ)。",
-      "image": "assets/jsl/fingerspelling/nu.webp"
+      "image": "assets/jsl/fingerspelling/nu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "wLWI8zPeE5w",
+        "start": 0,
+        "title": "手話動画 第62回「指文字 な行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=wLWI8zPeE5w"
+      }
     },
     {
       "id": "ne",
@@ -975,7 +2287,15 @@ window.LOCAL_DATA = {
       "romaji": "ne",
       "type": "seion",
       "description": "指を大きく開いて伸ばしたあと、手首を軸に前へ曲げ、指先が下を向くようにします(根っこが地面に伸びる様子)。",
-      "image": "assets/jsl/fingerspelling/ne.webp"
+      "image": "assets/jsl/fingerspelling/ne.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "wLWI8zPeE5w",
+        "start": 0,
+        "title": "手話動画 第62回「指文字 な行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=wLWI8zPeE5w"
+      }
     },
     {
       "id": "no",
@@ -983,7 +2303,15 @@ window.LOCAL_DATA = {
       "romaji": "no",
       "type": "seion",
       "description": "人差し指だけを立て、空中にカタカナの「ノ」を書くように動かします。残り4本は握ります。",
-      "image": "assets/jsl/fingerspelling/no.webp"
+      "image": "assets/jsl/fingerspelling/no.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "wLWI8zPeE5w",
+        "start": 0,
+        "title": "手話動画 第62回「指文字 な行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=wLWI8zPeE5w"
+      }
     },
     {
       "id": "ha",
@@ -991,7 +2319,15 @@ window.LOCAL_DATA = {
       "romaji": "ha",
       "type": "seion",
       "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。",
-      "image": "assets/jsl/fingerspelling/ha.webp"
+      "image": "assets/jsl/fingerspelling/ha.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "k4ViUvlCSqM",
+        "start": 0,
+        "title": "手話動画 第63回「指文字 は行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=k4ViUvlCSqM"
+      }
     },
     {
       "id": "hi",
@@ -999,7 +2335,15 @@ window.LOCAL_DATA = {
       "romaji": "hi",
       "type": "seion",
       "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/hi.webp"
+      "image": "assets/jsl/fingerspelling/hi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "k4ViUvlCSqM",
+        "start": 0,
+        "title": "手話動画 第63回「指文字 は行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=k4ViUvlCSqM"
+      }
     },
     {
       "id": "fu",
@@ -1007,7 +2351,15 @@ window.LOCAL_DATA = {
       "romaji": "fu",
       "type": "seion",
       "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。",
-      "image": "assets/jsl/fingerspelling/fu.webp"
+      "image": "assets/jsl/fingerspelling/fu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "k4ViUvlCSqM",
+        "start": 0,
+        "title": "手話動画 第63回「指文字 は行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=k4ViUvlCSqM"
+      }
     },
     {
       "id": "he",
@@ -1015,7 +2367,15 @@ window.LOCAL_DATA = {
       "romaji": "he",
       "type": "seion",
       "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。",
-      "image": "assets/jsl/fingerspelling/he.webp"
+      "image": "assets/jsl/fingerspelling/he.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "k4ViUvlCSqM",
+        "start": 0,
+        "title": "手話動画 第63回「指文字 は行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=k4ViUvlCSqM"
+      }
     },
     {
       "id": "ho",
@@ -1023,7 +2383,15 @@ window.LOCAL_DATA = {
       "romaji": "ho",
       "type": "seion",
       "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。",
-      "image": "assets/jsl/fingerspelling/ho.webp"
+      "image": "assets/jsl/fingerspelling/ho.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "k4ViUvlCSqM",
+        "start": 0,
+        "title": "手話動画 第63回「指文字 は行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=k4ViUvlCSqM"
+      }
     },
     {
       "id": "ma",
@@ -1031,7 +2399,15 @@ window.LOCAL_DATA = {
       "romaji": "ma",
       "type": "seion",
       "description": "人差し指・中指・薬指を離して伸ばしたあと、手首を軸に前へ曲げ、3本の指先が下を向くようにします(アルファベット「m」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/ma.webp"
+      "image": "assets/jsl/fingerspelling/ma.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "01FV2dtgk0w",
+        "start": 0,
+        "title": "手話動画 第64回「指文字 ま行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=01FV2dtgk0w"
+      }
     },
     {
       "id": "mi",
@@ -1039,7 +2415,15 @@ window.LOCAL_DATA = {
       "romaji": "mi",
       "type": "seion",
       "description": "手の甲を相手に向け、人差し指・中指・薬指をそろえて横向きに伸ばします(漢数字「三」・カタカナ「ミ」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/mi.webp"
+      "image": "assets/jsl/fingerspelling/mi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "01FV2dtgk0w",
+        "start": 0,
+        "title": "手話動画 第64回「指文字 ま行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=01FV2dtgk0w"
+      }
     },
     {
       "id": "mu",
@@ -1047,7 +2431,15 @@ window.LOCAL_DATA = {
       "romaji": "mu",
       "type": "seion",
       "description": "手の甲を相手に向け、親指と人差し指で「L」の形を作り、横向きにします(数字の「6」と同じ形)。残り3本は握ります。",
-      "image": "assets/jsl/fingerspelling/mu.webp"
+      "image": "assets/jsl/fingerspelling/mu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "01FV2dtgk0w",
+        "start": 0,
+        "title": "手話動画 第64回「指文字 ま行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=01FV2dtgk0w"
+      }
     },
     {
       "id": "me",
@@ -1055,7 +2447,15 @@ window.LOCAL_DATA = {
       "romaji": "me",
       "type": "seion",
       "description": "親指と人差し指の指先を軽くつけて小さな輪を作ります(「目」の形)。残り3本は握ります。手のひらを相手に向けます。",
-      "image": "assets/jsl/fingerspelling/me.webp"
+      "image": "assets/jsl/fingerspelling/me.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "01FV2dtgk0w",
+        "start": 0,
+        "title": "手話動画 第64回「指文字 ま行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=01FV2dtgk0w"
+      }
     },
     {
       "id": "mo",
@@ -1063,7 +2463,15 @@ window.LOCAL_DATA = {
       "romaji": "mo",
       "type": "seion",
       "description": "親指と人差し指以外を握り、親指と人差し指の指先をくっつけます(「同じ」を表す動き)。",
-      "image": "assets/jsl/fingerspelling/mo.webp"
+      "image": "assets/jsl/fingerspelling/mo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "01FV2dtgk0w",
+        "start": 0,
+        "title": "手話動画 第64回「指文字 ま行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=01FV2dtgk0w"
+      }
     },
     {
       "id": "ya",
@@ -1071,7 +2479,15 @@ window.LOCAL_DATA = {
       "romaji": "ya",
       "type": "seion",
       "description": "親指と小指を伸ばし、人差し指・中指・薬指の3本は握ります(Y字の形、アルファベット「y」の指文字と同じ)。",
-      "image": "assets/jsl/fingerspelling/ya.webp"
+      "image": "assets/jsl/fingerspelling/ya.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "lrpSMUBnJqo",
+        "start": 0,
+        "title": "手話動画 第65回「指文字 や行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=lrpSMUBnJqo"
+      }
     },
     {
       "id": "yu",
@@ -1079,7 +2495,15 @@ window.LOCAL_DATA = {
       "romaji": "yu",
       "type": "seion",
       "description": "手のひらを自分側に向け、人差し指・中指・薬指を離して伸ばします。親指と小指は握ります(温泉マーク・湯気の形)。",
-      "image": "assets/jsl/fingerspelling/yu.webp"
+      "image": "assets/jsl/fingerspelling/yu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "lrpSMUBnJqo",
+        "start": 0,
+        "title": "手話動画 第65回「指文字 や行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=lrpSMUBnJqo"
+      }
     },
     {
       "id": "yo",
@@ -1087,7 +2511,15 @@ window.LOCAL_DATA = {
       "romaji": "yo",
       "type": "seion",
       "description": "手のひらを自分側に向け、親指を曲げ、残り4本の指をそろえて横向きに伸ばします(漢数字「四」と同じ形)。",
-      "image": "assets/jsl/fingerspelling/yo.webp"
+      "image": "assets/jsl/fingerspelling/yo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "lrpSMUBnJqo",
+        "start": 0,
+        "title": "手話動画 第65回「指文字 や行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=lrpSMUBnJqo"
+      }
     },
     {
       "id": "ra",
@@ -1095,7 +2527,15 @@ window.LOCAL_DATA = {
       "romaji": "ra",
       "type": "seion",
       "description": "人差し指と中指を伸ばしたあと、人差し指の背を中指の腹に当てるように絡めます(アルファベット「r」の指文字と同じ)。残り3本は握ります。",
-      "image": "assets/jsl/fingerspelling/ra.webp"
+      "image": "assets/jsl/fingerspelling/ra.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4AeE78X4pcc",
+        "start": 0,
+        "title": "手話動画 第66回「指文字 ら行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4AeE78X4pcc"
+      }
     },
     {
       "id": "ri",
@@ -1103,7 +2543,15 @@ window.LOCAL_DATA = {
       "romaji": "ri",
       "type": "seion",
       "description": "人差し指・中指を伸ばし、空中にカタカナの「リ」を書くように手首をはねらせます。残り3本は握ります。",
-      "image": "assets/jsl/fingerspelling/ri.webp"
+      "image": "assets/jsl/fingerspelling/ri.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4AeE78X4pcc",
+        "start": 0,
+        "title": "手話動画 第66回「指文字 ら行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4AeE78X4pcc"
+      }
     },
     {
       "id": "ru",
@@ -1111,7 +2559,15 @@ window.LOCAL_DATA = {
       "romaji": "ru",
       "type": "seion",
       "description": "親指・人差し指・中指を離して伸ばし、薬指・小指は握ります(カタカナ「ル」の形)。手のひらを相手に向けます。",
-      "image": "assets/jsl/fingerspelling/ru.webp"
+      "image": "assets/jsl/fingerspelling/ru.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4AeE78X4pcc",
+        "start": 0,
+        "title": "手話動画 第66回「指文字 ら行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4AeE78X4pcc"
+      }
     },
     {
       "id": "re",
@@ -1119,7 +2575,15 @@ window.LOCAL_DATA = {
       "romaji": "re",
       "type": "seion",
       "description": "親指と人差し指を伸ばしてカタカナ「レ」の形を作り、中指・薬指・小指は握ります。手のひらを相手に向けます。",
-      "image": "assets/jsl/fingerspelling/re.webp"
+      "image": "assets/jsl/fingerspelling/re.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4AeE78X4pcc",
+        "start": 0,
+        "title": "手話動画 第66回「指文字 ら行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4AeE78X4pcc"
+      }
     },
     {
       "id": "ro",
@@ -1127,7 +2591,15 @@ window.LOCAL_DATA = {
       "romaji": "ro",
       "type": "seion",
       "description": "親指を手前に構え、人差し指・中指以外を握り、伸ばした2本の指を第2関節で曲げます(カタカナ「ロ」の形)。",
-      "image": "assets/jsl/fingerspelling/ro.webp"
+      "image": "assets/jsl/fingerspelling/ro.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4AeE78X4pcc",
+        "start": 0,
+        "title": "手話動画 第66回「指文字 ら行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4AeE78X4pcc"
+      }
     },
     {
       "id": "wa",
@@ -1135,7 +2607,15 @@ window.LOCAL_DATA = {
       "romaji": "wa",
       "type": "seion",
       "description": "人差し指・中指・薬指を離して伸ばし、親指・小指は握ります(アルファベット「w」の指文字と同じ)。手のひらを相手に向けます。",
-      "image": "assets/jsl/fingerspelling/wa.webp"
+      "image": "assets/jsl/fingerspelling/wa.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "qXiNX-Jeeq0",
+        "start": 0,
+        "title": "手話動画 第67回「指文字 わ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=qXiNX-Jeeq0"
+      }
     },
     {
       "id": "wo",
@@ -1143,7 +2623,15 @@ window.LOCAL_DATA = {
       "romaji": "wo",
       "type": "seion",
       "description": "「お」と同じ丸い形を作ってから、その形のまま手を自分側に引きます。",
-      "image": "assets/jsl/fingerspelling/wo.webp"
+      "image": "assets/jsl/fingerspelling/wo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "qXiNX-Jeeq0",
+        "start": 0,
+        "title": "手話動画 第67回「指文字 わ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=qXiNX-Jeeq0"
+      }
     },
     {
       "id": "n",
@@ -1151,7 +2639,15 @@ window.LOCAL_DATA = {
       "romaji": "n",
       "type": "seion",
       "description": "人差し指だけを立て、空中にカタカナの「ン」を書くように小さく動かします。残り4本は握ります。",
-      "image": "assets/jsl/fingerspelling/n.webp"
+      "image": "assets/jsl/fingerspelling/n.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "qXiNX-Jeeq0",
+        "start": 0,
+        "title": "手話動画 第67回「指文字 わ行」",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=qXiNX-Jeeq0"
+      }
     },
     {
       "id": "ga",
@@ -1160,7 +2656,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ka",
       "description": "人差し指と中指でチョキ(V)の形を作り、親指の腹を中指の第2関節に当てます。手のひらを相手に向けます(アルファベット「k」の指文字と同じ)。 清音「か」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/ga.webp"
+      "image": "assets/jsl/fingerspelling/ga.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "gi",
@@ -1169,7 +2673,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ki",
       "description": "親指・中指・薬指の指先をつけ、人差し指と小指をまっすぐ伸ばします。キツネの影絵のような形です。手のひらを相手に向けます。 清音「き」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/gi.webp"
+      "image": "assets/jsl/fingerspelling/gi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "gu",
@@ -1178,7 +2690,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ku",
       "description": "手の甲を相手に向け、親指は上向きに立て、人差し指・中指・薬指・小指はそろえて横向きに伸ばします(数字の「9」と同じ形)。 清音「く」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/gu.webp"
+      "image": "assets/jsl/fingerspelling/gu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "ge",
@@ -1187,7 +2707,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ke",
       "description": "親指を手のひらに折り込み、残り4本の指をそろえてまっすぐ伸ばします(敬礼する手の形、アルファベット「b」の指文字と同じ)。 清音「け」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/ge.webp"
+      "image": "assets/jsl/fingerspelling/ge.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "go",
@@ -1196,7 +2724,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ko",
       "description": "親指以外の4本をそろえて根元から直角に曲げ、小指側の側面を相手に向けます(カタカナ「コ」の一画を表します)。 清音「こ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/go.webp"
+      "image": "assets/jsl/fingerspelling/go.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "pMMw8Q-yceI",
+        "start": 0,
+        "title": "手話動画 第59回「指文字 か行」(がぎぐげごも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=pMMw8Q-yceI"
+      }
     },
     {
       "id": "za",
@@ -1205,7 +2741,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "sa",
       "description": "5本の指をすべて握り込んだ「グー」の形にします(親指は外側)。手のひらを相手に向けます(アルファベット「s」の指文字と同じ)。 清音「さ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/za.webp"
+      "image": "assets/jsl/fingerspelling/za.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "ji",
@@ -1214,7 +2758,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "shi",
       "description": "手の甲を相手に向け、親指を上向きに立て、人差し指・中指をそろえて横向きに伸ばします(数字の「7」と同じ形)。 清音「し」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/ji.webp"
+      "image": "assets/jsl/fingerspelling/ji.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "zu",
@@ -1223,7 +2775,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "su",
       "description": "「し」の形を作ったあと、手首を支点に指先が下を向くまで倒します(カタカナ「ス」の形)。 清音「す」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/zu.webp"
+      "image": "assets/jsl/fingerspelling/zu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "ze",
@@ -1232,7 +2792,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "se",
       "description": "握った「グー」の形から中指だけをまっすぐ伸ばし、指の腹を相手に向けます(「背」がピンと伸びている様子)。 清音「せ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/ze.webp"
+      "image": "assets/jsl/fingerspelling/ze.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "zo",
@@ -1241,7 +2809,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "so",
       "description": "人差し指だけを伸ばし、指先をやや斜め下に向けて「それ」を指し示します。残り4本は握ります。 清音「そ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/zo.webp"
+      "image": "assets/jsl/fingerspelling/zo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "4pPbt2uGOIg",
+        "start": 0,
+        "title": "手話動画 第60回「指文字 さ行」(ざじずぜぞも解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=4pPbt2uGOIg"
+      }
     },
     {
       "id": "da",
@@ -1250,7 +2826,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ta",
       "description": "親指だけを立て、指の腹を相手に向けます(「いいね」のサイン、アルファベット「t」の指文字と同じ)。残り4本は握ります。 清音「た」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/da.webp"
+      "image": "assets/jsl/fingerspelling/da.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "dji",
@@ -1259,7 +2843,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "chi",
       "description": "親指・人差し指・中指・薬指の指先をそろえてつけ、小指だけをまっすぐ立てます(漢数字「千」と同じ形)。 清音「ち」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/dji.webp"
+      "image": "assets/jsl/fingerspelling/dji.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "dzu",
@@ -1268,7 +2860,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "tsu",
       "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。 清音「つ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/dzu.webp"
+      "image": "assets/jsl/fingerspelling/dzu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "de",
@@ -1277,7 +2877,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "te",
       "description": "5本の指をそろえてまっすぐ伸ばし、手のひらをそのまま相手に見せます。 清音「て」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/de.webp"
+      "image": "assets/jsl/fingerspelling/de.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "do",
@@ -1286,7 +2894,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "to",
       "description": "人差し指・中指をそろえて伸ばし、手の甲を相手に向けます(「う」と向きが逆、戸をたたく感じ)。 清音「と」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/do.webp"
+      "image": "assets/jsl/fingerspelling/do.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "ba",
@@ -1295,7 +2911,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ha",
       "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。 清音「は」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/ba.webp"
+      "image": "assets/jsl/fingerspelling/ba.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "bi",
@@ -1304,7 +2928,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "hi",
       "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。 清音「ひ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/bi.webp"
+      "image": "assets/jsl/fingerspelling/bi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "bu",
@@ -1313,7 +2945,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "fu",
       "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。 清音「ふ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/bu.webp"
+      "image": "assets/jsl/fingerspelling/bu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "be",
@@ -1322,7 +2962,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "he",
       "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。 清音「へ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/be.webp"
+      "image": "assets/jsl/fingerspelling/be.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "bo",
@@ -1331,7 +2979,15 @@ window.LOCAL_DATA = {
       "type": "dakuon",
       "baseId": "ho",
       "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。 清音「ほ」の指文字の形のまま、手を右へ水平に動かして濁音「゛」を表します。",
-      "image": "assets/jsl/fingerspelling/bo.webp"
+      "image": "assets/jsl/fingerspelling/bo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "pa",
@@ -1340,7 +2996,15 @@ window.LOCAL_DATA = {
       "type": "handakuon",
       "baseId": "ha",
       "description": "人差し指・中指を伸ばして、やや斜め下に向けます(箸の形、アルファベット「h」の指文字と同じ)。残り3本は握ります。 清音「は」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
-      "image": "assets/jsl/fingerspelling/pa.webp"
+      "image": "assets/jsl/fingerspelling/pa.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "pi",
@@ -1349,7 +3013,15 @@ window.LOCAL_DATA = {
       "type": "handakuon",
       "baseId": "hi",
       "description": "人差し指だけをまっすぐ伸ばし、残り4本は握ります。手のひらを相手に向けます(数字の「1」と同じ形)。 清音「ひ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
-      "image": "assets/jsl/fingerspelling/pi.webp"
+      "image": "assets/jsl/fingerspelling/pi.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "pu",
@@ -1358,7 +3030,15 @@ window.LOCAL_DATA = {
       "type": "handakuon",
       "baseId": "fu",
       "description": "親指・人差し指を伸ばしたあと、手首を曲げて人差し指の先が下を向くようにします(カタカナ「フ」の形)。残り3本は握ります。 清音「ふ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
-      "image": "assets/jsl/fingerspelling/pu.webp"
+      "image": "assets/jsl/fingerspelling/pu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "pe",
@@ -1367,7 +3047,15 @@ window.LOCAL_DATA = {
       "type": "handakuon",
       "baseId": "he",
       "description": "こぶしを握り、親指と小指だけを下向きに伸ばします(カタカナ「ヘ」の形)。 清音「へ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
-      "image": "assets/jsl/fingerspelling/pe.webp"
+      "image": "assets/jsl/fingerspelling/pe.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "po",
@@ -1376,7 +3064,15 @@ window.LOCAL_DATA = {
       "type": "handakuon",
       "baseId": "ho",
       "description": "5本の指をそろえて軽く丸めるように伸ばし、手の甲を相手に向けます(帆が風を受けて膨らんでいる様子)。 清音「ほ」の指文字の形のまま、手を上へ跳ね上げて半濁音「゜」を表します。",
-      "image": "assets/jsl/fingerspelling/po.webp"
+      "image": "assets/jsl/fingerspelling/po.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "xya",
@@ -1385,7 +3081,15 @@ window.LOCAL_DATA = {
       "type": "youon",
       "baseId": "ya",
       "description": "親指と小指を伸ばし、人差し指・中指・薬指の3本は握ります(Y字の形、アルファベット「y」の指文字と同じ)。 基本の指文字「や」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ゃ」を表します。",
-      "image": "assets/jsl/fingerspelling/xya.webp"
+      "image": "assets/jsl/fingerspelling/xya.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "xyu",
@@ -1394,7 +3098,15 @@ window.LOCAL_DATA = {
       "type": "youon",
       "baseId": "yu",
       "description": "手のひらを自分側に向け、人差し指・中指・薬指を離して伸ばします。親指と小指は握ります(温泉マーク・湯気の形)。 基本の指文字「ゆ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ゅ」を表します。",
-      "image": "assets/jsl/fingerspelling/xyu.webp"
+      "image": "assets/jsl/fingerspelling/xyu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "xyo",
@@ -1403,7 +3115,15 @@ window.LOCAL_DATA = {
       "type": "youon",
       "baseId": "yo",
       "description": "手のひらを自分側に向け、親指を曲げ、残り4本の指をそろえて横向きに伸ばします(漢数字「四」と同じ形)。 基本の指文字「よ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「ょ」を表します。",
-      "image": "assets/jsl/fingerspelling/xyo.webp"
+      "image": "assets/jsl/fingerspelling/xyo.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
     },
     {
       "id": "xtsu",
@@ -1412,7 +3132,15 @@ window.LOCAL_DATA = {
       "type": "sokuon",
       "baseId": "tsu",
       "description": "親指・人差し指・中指の指先を合わせ、薬指と小指をまっすぐ立てます(カタカナ「ツ」の形)。 基本の指文字「つ」の形のまま、手首を支点に手前(自分側)へ引いて小さい「っ」を表します。",
-      "image": "assets/jsl/fingerspelling/xtsu.webp"
+      "image": "assets/jsl/fingerspelling/xtsu.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "Uap1mJGoq5o",
+        "start": 0,
+        "title": "手話動画 第61回「指文字 た行」(だぢづでど・促音も解説)",
+        "credit": "能美市公式YouTubeチャンネル",
+        "creditUrl": "https://www.youtube.com/watch?v=Uap1mJGoq5o"
+      }
     },
     {
       "id": "chouon",
@@ -1420,7 +3148,29 @@ window.LOCAL_DATA = {
       "romaji": "-",
       "type": "chouon",
       "description": "長音「ー」には単独の指文字の形はありません。人差し指を立てて縦に「ー」の線を上から下へ書くように動かして、音を伸ばすことを表します。",
-      "image": "assets/jsl/fingerspelling/chouon.webp"
+      "image": "assets/jsl/fingerspelling/chouon.webp",
+      "video": {
+        "provider": "youtube",
+        "videoId": "NwxqOkjqaA0",
+        "start": 578,
+        "title": "【指文字】50音・濁音・半濁音・拗音・長音・促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音等のパート)",
+        "credit": "藤乃",
+        "creditUrl": "https://www.youtube.com/watch?v=NwxqOkjqaA0"
+      }
+    }
+  ],
+  "videoSources": [
+    {
+      "name": "能美市公式YouTubeチャンネル",
+      "url": "https://www.youtube.com/@nomicity",
+      "usage": "指文字 行別解説動画(手話動画 第58回〜第67回)のYouTube埋め込み。あ行〜わ行の清音と、か/さ/た行の動画内で解説される濁音・促音に使用。",
+      "note": "埋め込み(iframe)のみで視聴させ、動画のダウンロード・保存・再配布は行いません。"
+    },
+    {
+      "name": "藤乃",
+      "url": "https://www.youtube.com/@syuwa-fujino",
+      "usage": "【指文字】50音•濁音•半濁音•拗音•長音•促音をすべて２つのアングルから撮影解説してます(9:38〜 濁音・半濁音・拗音・長音パート)のYouTube埋め込み。ば行・ぱ行・拗音・長音に使用。",
+      "note": "埋め込み(iframe)のみで視聴させ、動画のダウンロード・保存・再配布は行いません。"
     }
   ]
 }
